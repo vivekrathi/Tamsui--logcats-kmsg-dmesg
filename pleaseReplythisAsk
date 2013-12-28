@@ -1,0 +1,12 @@
+Read this and tell me;
+
+build/core/copy_headers.mk:15: Note: covering tasks for the object `/home/lozohcum/CM11/out/target/product/jlo/obj/include/qcom/display-legacy/copybit.h'
+build/core/copy_headers.mk:15: Note: ignoring old tasks for object `/home/lozohcum/CM11/out/target/product/jlo/obj/include/qcom/display-legacy/copybit.h'
+build/core/copy_headers.mk:15: Note: covering tasks for the object `/home/lozohcum/CM11/out/target/product/jlo/obj/include/qcom/display-legacy/copybit_priv.h'
+build/core/copy_headers.mk:15: Note: ignoring old tasks for object `/home/lozohcum/CM11/out/target/product/jlo/obj/include/qcom/display-legacy/copybit_priv.h'
+
+
+Does it mean that display-legacy is not being used at all?
+or does it mean that display-legact is the replacement for old tasks?
+
+Please reply
