@@ -1,0 +1,150 @@
+__bionic_open_tzdata: couldn't find any tzdata when looking for localtime!
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+Starting recovery on Fri Jan  3 16:10:20 2014
+
+can't open /dev/tty0: No such file or directory
+framebuffer: fd 3 (480 x 854)
+CWM-based Recovery v6.0.4.5
+recovery filesystem table
+=========================
+  0 /system ext4 /dev/block/mmcblk0p10 0
+  1 /cache ext4 /dev/block/mmcblk0p11 0
+  2 /data ext4 /dev/block/mmcblk0p15 0
+  3 /storage/sdcard vfat /devices/platform/msm_sdcc.3/mmc_host/mmc0 0
+  4 /storage/sdcard1 vfat /devices/platform/msm_sdcc.1/mmc_host 0
+  5 /boot emmc /dev/block/mmcblk0p3 0
+  6 /tmp ramdisk ramdisk 0
+
+W:Unable to get recovery.fstab info for /datadata during fstab generation!
+W:Unable to get recovery.fstab info for /emmc during fstab generation!
+W:Unable to get recovery.fstab info for /sdcard during fstab generation!
+W:Unable to get recovery.fstab info for /sd-ext during fstab generation!
+W:Unable to get recovery.fstab info for /external_sd during fstab generation!
+I:Completed outputting fstab.
+I:Connected to Vold..
+I:110 0 sdcard /storage/sdcard 1
+I:110 0 sdcard1 /storage/sdcard1 1
+I:200 0 Volumes listed.
+I:Processing arguments.
+I:Checking arguments.
+I:device_recovery_start()
+Command: "/sbin/recovery"
+
+hw.fm.isAnalog=true
+ro.cm.device=jlo
+ro.cm.version=11-20140102-UNOFFICIAL-jlo
+ro.sf.lcd_density=240
+ro.adb.secure=0
+ro.com.google.clientidbase=android-google
+ro.com.android.dateformat=MM-dd-yyyy
+ro.com.android.dataroaming=false
+ro.com.android.wifi-watchlist=GoogleGuest
+ro.max.fling_velocity=4000
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.ril.transmitpower=true
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.boot.emmc=1
+ro.boot.baseband=msm
+ro.boot.hardware=sony
+ro.boot.serialno=37714ecd
+ro.emmc=1
+ro.wifi.channels=
+ro.allow.mock.location=0
+ro.board.platform=msm7x27a
+ro.build.id=KOT49H
+ro.build.date=czw, 2 sty 2014, 22:43:42 CET
+ro.build.date.utc=0
+ro.build.host=lozohcum-ubuntu
+ro.build.tags=test-keys
+ro.build.type=userdebug
+ro.build.user=lozohcum
+ro.build.display.id=cm_jlo-userdebug 4.4.2 KOT49H 5a30f551d1 test-keys
+ro.build.product=jlo
+ro.build.selinux=1
+ro.build.version.sdk=19
+ro.build.version.release=4.4.2
+ro.build.version.codename=REL
+ro.build.version.incremental=5a30f551d1
+ro.build.description=ST26i-user 4.0.4 6.1.A.0.452 O_5_zw test-keys
+ro.build.fingerprint=SEMC/ST26i_1257-4009/ST26i:4.0.4/6.1.A.0.452/O_5_zw:user/release-keys
+ro.build.characteristics=default
+ro.config.ringtone=Orion.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.config.notification_sound=OnTheHunt.ogg
+ro.secure=0
+ro.carrier=unknown
+ro.cmlegal.url=http://www.cyanogenmod.org/docs/privacy
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.name=ST26i_1257-4009
+ro.product.board=tamsui
+ro.product.brand=Sony
+ro.product.model=Xperia J
+ro.product.device=jlo
+ro.product.locale.region=US
+ro.product.locale.language=en
+ro.product.manufacturer=Sony
+ro.baseband=msm
+ro.bootmode=unknown
+ro.hardware=sony
+ro.opengles.version=131072
+ro.revision=0
+ro.serialno=37714ecd
+ro.telephony.ril.v3=skipnullaid
+ro.telephony.ril_class=SonyQualcommRIL7x27a
+ro.bootloader=unknown
+ro.debuggable=1
+ro.modversion=11-20140102-UNOFFICIAL-jlo
+ro.rommanager.developerid=cyanogenmod
+ro.factorytest=0
+ro.setupwizard.enterprise_mode=1
+ro.use_data_netmgrd=true
+com.qc.hardware=true
+dev.pm.dyn_samplingrate=1
+net.bt.name=Android
+net.change=net.bt.name
+sys.mem.max_hidden_apps=10
+hwui.render_dirty_regions=false
+init.svc.adbd=running
+init.svc.vold=running
+init.svc.healthd=running
+init.svc.ueventd=running
+init.svc.recovery=running
+init.svc.setup_adbd=stopped
+rild.libargs=-d/dev/smd0
+rild.libpath=/system/lib/libril-qc-1.so
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=30
+debug.sf.hw=1
+debug.camcorder.disablemeta=1
+debug.composition.type=mdp
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-meta=false
+media.stagefright.enable-scan=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-player=true
+dalvik.vm.heapsize=128m
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.heapmaxfree=2m
+dalvik.vm.heapminfree=512k
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapstartsize=5m
+dalvik.vm.heapgrowthlimit=48m
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+dalvik.vm.heaptargetutilization=0.25
+persist.sys.usb.config=adb
+persist.sys.dalvik.vm.lib=libdvm.so
+persist.sys.root_access=1
+persist.data_netmgrd_nint=3
+service.adb.root=1
+keyguard.no_require_sim=true
+mobiledata.interfaces=rmnet0,rmnet1
+DEVICE_PROVISIONED=1
+
+I:Checking for extendedcommand...
+I:Skipping execution of extendedcommand, file not found...
