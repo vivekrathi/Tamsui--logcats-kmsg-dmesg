@@ -1,0 +1,27 @@
+joebonrichie@joebonrichie-MS-7681:~/android/cm-11.0/out/target/product/tapioca_ss$ adb logcat *:E
+- waiting for device -
+--------- beginning of /dev/log/main
+E/tadif   (  144): Failed to connect to tad.
+--------- beginning of /dev/log/system
+E/overlay (  191): ERROR: MSMFB_MIXER_INFO ioctl failed
+E/cutils-trace(  191): Error opening trace file: No such file or directory (2)
+E/MediaPlayerFactory(  194): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  194): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  194): registering DASH Player factory...
+E/mm-camif(  194): mm_camera_get_camera_info: controlfd is invalid No such file or directory
+E/AudioHardwareMSM76XXA(  194): audioeq library open failure
+E/AudioHardwareMSM76XXA(  194): failed to open AUTO_VOLUME_CONTROL /system/etc/AutoVolumeControl.txt: No such file or directory (2)
+E/AudioFlinger(  194): no wake lock to update!
+E/cutils-trace(  278): Error opening trace file: No such file or directory (2)
+E/cutils-trace(  192): Error opening trace file: No such file or directory (2)
+E/Sensors (  606): couldn't find 'compass' input device
+E/PackageParser(  606): Package com.cyanogenmod.services has no certificates at entry AndroidManifest.xml; ignoring!
+E/ConsumerIrService(  606): Can't open consumer IR HW Module, error: -2
+E/Sensors (  606): bma set_attr: Open:</sys/class/input/input4/mode> failed, val<88>, len<2>
+E/Sensors (  606): bma set_attr: Open:</sys/class/input/input4/bandwidth> failed, val<9>, len<1>
+E/Sensors (  606): bma set_attr: Open:</sys/class/input/input4/delay> failed, val<66>, len<2>
+E/KeyLayoutMap(  606): /system/usr/keylayout/fih_gpio-keys.kl:106: Expected key code label, got 'DSDS_SWITCH'.
+E/KeyCharacterMap(  606): /system/usr/keychars/fih_gpio-keys.kcm:17: Expected keyword, got '[type=NUMERIC]'.
+E/KeyCharacterMap(  606): /system/usr/keychars/simple_remote_appkey.kcm:17: Expected keyword, got '[type=QWERTY]'.
+E/filemap (  606): mmap(0,4096) failed: No such device
+E/KeyCharacterMap(  606): /system/usr/keychars/cyttsp_i2c_tma340.kcm:17: Expected keyword, got '[type=NUMERIC]'.
