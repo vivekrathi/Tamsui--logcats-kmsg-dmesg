@@ -1,0 +1,47 @@
+joebonrichie@joebonrichie-MS-7681:~/android/cm-11.0/out/target/product/tapioca_ss$ adb logcat *:E
+- waiting for device -
+--------- beginning of /dev/log/main
+E/tadif   (  144): Failed to connect to tad.
+--------- beginning of /dev/log/system
+E/overlay (  191): ERROR: MSMFB_MIXER_INFO ioctl failed
+E/cutils-trace(  191): Error opening trace file: No such file or directory (2)
+E/MediaPlayerFactory(  194): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  194): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  194): registering DASH Player factory...
+E/mm-camif(  194): mm_camera_get_camera_info: controlfd is invalid No such file or directory
+E/AudioHardwareMSM76XXA(  194): audioeq library open failure
+E/AudioHardwareMSM76XXA(  194): failed to open AUTO_VOLUME_CONTROL /system/etc/AutoVolumeControl.txt: No such file or directory (2)
+E/cutils-trace(  278): Error opening trace file: No such file or directory (2)
+E/AudioFlinger(  194): no wake lock to update!
+E/cutils-trace(  192): Error opening trace file: No such file or directory (2)
+E/Sensors (  592): couldn't find 'compass' input device
+E/PackageParser(  592): Package com.cyanogenmod.services has no certificates at entry AndroidManifest.xml; ignoring!
+E/ConsumerIrService(  592): Can't open consumer IR HW Module, error: -2
+E/KeyLayoutMap(  592): /system/usr/keylayout/fih_gpio-keys.kl:106: Expected key code label, got 'DSDS_SWITCH'.
+E/KeyCharacterMap(  592): /system/usr/keychars/fih_gpio-keys.kcm:17: Expected keyword, got '[type=NUMERIC]'.
+E/KeyCharacterMap(  592): /system/usr/keychars/simple_remote_appkey.kcm:17: Expected keyword, got '[type=QWERTY]'.
+E/filemap (  592): mmap(0,4096) failed: No such device
+E/KeyCharacterMap(  592): /system/usr/keychars/cyttsp_i2c_tma340.kcm:17: Expected keyword, got '[type=NUMERIC]'.
+E/ConnectivityService(  592): Ignoring protectedNetwork 10
+E/ConnectivityService(  592): Ignoring protectedNetwork 11
+E/ConnectivityService(  592): Ignoring protectedNetwork 12
+E/ConnectivityService(  592): Ignoring protectedNetwork 14
+E/MobileDataStateTracker(  592): default: Could not enable APN type "default"
+E/WifiConfigStore(  592): Error parsing configurationjava.io.FileNotFoundException: /data/misc/wifi/ipconfig.txt: open failed: ENOENT (No such file or directory)
+E/NetdConnector(  592): NDC Command {6 bandwidth enable} took too long (1004ms)
+E/WifiNative-wlan0(  592): doBoolean: disable
+E/VoldConnector(  592): NDC Command {3 volume mount /storage/sdcard0} took too long (1567ms)
+E/WifiStateMachine(  592): Unexpected BatchedScanResults :OK
+E/WVMExtractor(  194): Failed to open libwvm.so
+E/cutils-trace(  194): Error opening trace file: No such file or directory (2)
+E/LocationManagerService(  592): no geocoder provider found
+E/FlpHardwareProvider(  592): Error hw_get_module 'flp': -2
+E/FlpHardwareProvider(  592): Error hw_get_module 'flp': -2
+E/VoldConnector(  592): NDC Command {4 asec list} took too long (3943ms)
+E/AppsCustomizePagedView(  821): Widget ComponentInfo{com.android.calculator2/com.android.calculator2.CalculatorWidget} can not fit on this device (250, 250)
+E/ConnectivityService(  592): Unexpected mtu value: android.net.wifi.WifiStateTracker@420b3760
+E/AppsCustomizePagedView(  821): Widget ComponentInfo{com.android.mms/com.android.mms.widget.MmsWidgetProvider} can not fit on this device (220, 220)
+E/ConnectivityService(  592): Unexpected mtu value: android.net.wifi.WifiStateTracker@420b3760
+E/BluetoothPhoneService(  789): Could not get a handle on Connection object for the call
+E/loc_api_rpc_glue(  592): loc_api_sync_ioctl: select_id = 0, loc_ioctl returned 4
+E/CM PowerHAL(  592): Error opening boostpulse: No such file or directory
