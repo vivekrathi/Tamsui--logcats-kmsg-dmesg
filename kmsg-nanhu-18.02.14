@@ -1,0 +1,299 @@
+<0>[ 1973.773661] BATT: rcvd: 0, 2, 0, 2; 3998, 29 ; 3 , 7
+<0>[ 1973.788346] button off
+<0>[ 1973.808056] lm3533_led_set: lm3533-light-button,  id:1 brightness:0
+<0>[ 1975.702066] invalid_charger_irq_has_triggered=1
+<0>[ 2023.135181] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:19
+<0>[ 2024.148054] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:10
+<0>[ 2033.548238] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:0
+<5>[ 2034.018496] VREG L1 OFF
+<6>[ 2034.114114] request_suspend_state: sleep (0->3) at 2032556104810 (2014-02-
+18 10:42:04.030884809 UTC)
+<3>[ 2034.114351] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:4/91
+<4>[ 2034.114541] caller is smartass_suspend+0x10/0x148
+<4>[ 2034.114669] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2034.114861] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2034.115053] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2f5c>] (
+smartass_early_suspend+0x44/0x74)
+<4>[ 2034.115243] [<c03d2f5c>] (smartass_early_suspend+0x44/0x74) from [<c00becf
+8>] (early_suspend+0xbc/0x124)
+<4>[ 2034.115434] [<c00becf8>] (early_suspend+0xbc/0x124) from [<c00a4848>] (pro
+cess_one_work+0x1c8/0x320)
+<4>[ 2034.115623] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2034.115736] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2034.115926] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<0>[ 2034.116106] msm_batt_early_suspend: enter
+<4>[ 2034.117138] [Cypress] cy8c_ts_deep_sleep : on
+<3>[ 2095.007204] Kevin Shiu key=116 key_code=111
+<0>[ 2095.038124] lm3533_led_set: lm3533-light-button,  id:1 brightness:255
+<3>[ 2095.142496] Kevin Shiu key=116 key_code=255
+<6>[ 2095.275951] request_suspend_state: wakeup (3->0) at 2093717941470 (2014-02
+-18 10:43:05.192719803 UTC)
+<4>[ 2095.348106] [Cypress] cy8c_ts_deep_sleep : off
+<0>[ 2095.350104] invalid_charger_irq_has_triggered=1
+<0>[ 2095.350299] BATT: rcvd: 0, 2, 0, 2; 4005, 30 ; 3 , 7
+<7>[ 2095.350506] msm_batt_late_resume: exit
+<3>[ 2095.350521] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:3/1568
+<4>[ 2095.350721] caller is smartass_suspend+0x10/0x148
+<4>[ 2095.350851] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2095.351041] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2095.351233] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2ee8>] (
+smartass_late_resume+0x38/0x68)
+<4>[ 2095.351423] [<c03d2ee8>] (smartass_late_resume+0x38/0x68) from [<c00bebf4>
+] (late_resume+0xb4/0xfc)
+<4>[ 2095.351611] [<c00bebf4>] (late_resume+0xb4/0xfc) from [<c00a4848>] (proces
+s_one_work+0x1c8/0x320)
+<4>[ 2095.351721] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2095.351911] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2095.352103] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<5>[ 2095.868371] VREG L1 ON
+<3>[ 2095.868389] Tracy:msm_fb_blank_panel_HW_reset_start
+<3>[ 2095.918503] DSI1 PHY READY after 9502 polls!
+<0>[ 2096.088024] Tracy_mipi_ili9486_lcd_on_initial_cmd_finish
+<0>[ 2097.163933] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:219
+<0>[ 2100.018203] button off
+<0>[ 2100.038019] lm3533_led_set: lm3533-light-button,  id:1 brightness:0
+<0>[ 2102.138059] lm3533_led_set: lm3533-light-button,  id:1 brightness:255
+<0>[ 2107.118176] button off
+<0>[ 2107.138028] lm3533_led_set: lm3533-light-button,  id:1 brightness:0
+<0>[ 2156.892043] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:18
+<0>[ 2157.678024] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:10
+<0>[ 2166.628059] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:0
+<5>[ 2167.158444] VREG L1 OFF
+<6>[ 2167.287828] request_suspend_state: sleep (0->3) at 2165729819797 (2014-02-
+18 10:44:17.204599796 UTC)
+<3>[ 2167.288149] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:3/1568
+<4>[ 2167.288263] caller is smartass_suspend+0x10/0x148
+<4>[ 2167.288468] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2167.288658] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2167.288848] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2f5c>] (
+smartass_early_suspend+0x44/0x74)
+<4>[ 2167.288959] [<c03d2f5c>] (smartass_early_suspend+0x44/0x74) from [<c00becf
+8>] (early_suspend+0xbc/0x124)
+<4>[ 2167.289148] [<c00becf8>] (early_suspend+0xbc/0x124) from [<c00a4848>] (pro
+cess_one_work+0x1c8/0x320)
+<4>[ 2167.289334] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2167.289523] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2167.289714] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<0>[ 2167.289818] msm_batt_early_suspend: enter
+<4>[ 2167.290738] [Cypress] cy8c_ts_deep_sleep : on
+<3>[ 2311.575061] Kevin Shiu key=116 key_code=111
+<0>[ 2311.598133] lm3533_led_set: lm3533-light-button,  id:1 brightness:255
+<3>[ 2311.723828] Kevin Shiu key=116 key_code=255
+<6>[ 2311.885426] request_suspend_state: wakeup (3->0) at 2310327414783 (2014-02
+-18 10:46:41.802194782 UTC)
+<4>[ 2311.958048] [Cypress] cy8c_ts_deep_sleep : off
+<0>[ 2311.959978] invalid_charger_irq_has_triggered=1
+<0>[ 2311.960086] BATT: rcvd: 0, 2, 0, 2; 4026, 30 ; 3 , 7
+<7>[ 2311.960296] msm_batt_late_resume: exit
+<3>[ 2311.960311] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:4/91
+<4>[ 2311.960501] caller is smartass_suspend+0x10/0x148
+<4>[ 2311.960704] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2311.960818] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2311.961011] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2ee8>] (
+smartass_late_resume+0x38/0x68)
+<4>[ 2311.961201] [<c03d2ee8>] (smartass_late_resume+0x38/0x68) from [<c00bebf4>
+] (late_resume+0xb4/0xfc)
+<4>[ 2311.961391] [<c00bebf4>] (late_resume+0xb4/0xfc) from [<c00a4848>] (proces
+s_one_work+0x1c8/0x320)
+<4>[ 2311.961579] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2311.961768] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2311.961883] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<5>[ 2312.378326] VREG L1 ON
+<3>[ 2312.378344] Tracy:msm_fb_blank_panel_HW_reset_start
+<3>[ 2312.428493] DSI1 PHY READY after 8d15 polls!
+<0>[ 2312.598029] Tracy_mipi_ili9486_lcd_on_initial_cmd_finish
+<0>[ 2313.477899] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:68
+<0>[ 2313.606486] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:213
+<0>[ 2314.618039] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:219
+<0>[ 2316.588168] button off
+<0>[ 2316.608018] lm3533_led_set: lm3533-light-button,  id:1 brightness:0
+<6>[ 2329.913284] android_usb gadget: high-speed config #1: android
+<0>[ 2329.915883] invalid_charger_irq_has_triggered=1
+<0>[ 2329.916008] BATT: rcvd: 0, 2, 0, 2; 4026, 30 ; 1 , 7
+<0>[ 2329.952273] invalid_charger_irq_has_triggered=1
+<0>[ 2329.952458] BATT: rcvd: 0, 2, 0, 2; 4026, 30 ; 3 , 1
+<6>[ 2329.968086] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<0>[ 2331.535008] invalid_charger_irq_has_triggered=1
+<0>[ 2331.535134] BATT: rcvd: 0, 2, 0, 2; 4026, 30 ; 3 , 7
+<0>[ 2336.932123] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:19
+<0>[ 2337.981234] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:10
+<4>[ 2346.076788] idle_stats_device: Overwriting samples
+<0>[ 2346.653526] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:0
+<5>[ 2346.898491] VREG L1 OFF
+<6>[ 2347.948273] request_suspend_state: sleep (0->3) at 2346390261447 (2014-02-
+18 10:47:17.865041446 UTC)
+<3>[ 2347.948516] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:4/91
+<4>[ 2347.948706] caller is smartass_suspend+0x10/0x148
+<4>[ 2347.948834] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2347.949028] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2347.949219] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2f5c>] (
+smartass_early_suspend+0x44/0x74)
+<4>[ 2347.949409] [<c03d2f5c>] (smartass_early_suspend+0x44/0x74) from [<c00becf
+8>] (early_suspend+0xbc/0x124)
+<4>[ 2347.949603] [<c00becf8>] (early_suspend+0xbc/0x124) from [<c00a4848>] (pro
+cess_one_work+0x1c8/0x320)
+<4>[ 2347.949713] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2347.949903] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2347.950103] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<0>[ 2347.950284] msm_batt_early_suspend: enter
+<4>[ 2347.951131] [Cypress] cy8c_ts_deep_sleep : on
+<3>[ 2614.758139] Kevin Shiu key=116 key_code=111
+<0>[ 2614.788204] lm3533_led_set: lm3533-light-button,  id:1 brightness:255
+<6>[ 2614.818398] request_suspend_state: wakeup (3->0) at 2613260388088 (2014-02
+-18 10:51:44.735169754 UTC)
+<3>[ 2614.934016] Kevin Shiu key=116 key_code=255[Cypress] cy8c_ts_deep_sleep :
+off
+<0>[ 2614.939994] invalid_charger_irq_has_triggered=1
+<0>[ 2614.940111] BATT: rcvd: 0, 2, 0, 2; 4042, 29 ; 3 , 7
+<7>[ 2614.940394] msm_batt_late_resume: exit
+<3>[ 2614.940409] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:4/91
+<4>[ 2614.940523] caller is smartass_suspend+0x10/0x148
+<4>[ 2614.940724] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2614.940914] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2614.941028] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2ee8>] (
+smartass_late_resume+0x38/0x68)
+<4>[ 2614.941216] [<c03d2ee8>] (smartass_late_resume+0x38/0x68) from [<c00bebf4>
+] (late_resume+0xb4/0xfc)
+<4>[ 2614.941406] [<c00bebf4>] (late_resume+0xb4/0xfc) from [<c00a4848>] (proces
+s_one_work+0x1c8/0x320)
+<4>[ 2614.941593] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2614.941781] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2614.941894] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<5>[ 2615.678191] VREG L1 ON
+<3>[ 2615.678209] Tracy:msm_fb_blank_panel_HW_reset_start
+<3>[ 2615.729078] DSI1 PHY READY after 95ae polls!
+<0>[ 2615.898014] Tracy_mipi_ili9486_lcd_on_initial_cmd_finish
+<0>[ 2617.618048] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:219
+<0>[ 2623.508299] button off
+<0>[ 2623.528016] lm3533_led_set: lm3533-light-button,  id:1 brightness:0
+<0>[ 2672.768579] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:19
+<0>[ 2674.678041] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:10
+<0>[ 2684.726279] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:0
+<5>[ 2685.258536] VREG L1 OFF
+<6>[ 2685.478214] request_suspend_state: sleep (0->3) at 2683920204748 (2014-02-
+18 10:52:55.394984747 UTC)
+<3>[ 2685.478449] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:3/1568
+<4>[ 2685.478641] caller is smartass_suspend+0x10/0x148
+<4>[ 2685.478769] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2685.478961] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2685.479151] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2f5c>] (
+smartass_early_suspend+0x44/0x74)
+<4>[ 2685.479343] [<c03d2f5c>] (smartass_early_suspend+0x44/0x74) from [<c00becf
+8>] (early_suspend+0xbc/0x124)
+<4>[ 2685.479454] [<c00becf8>] (early_suspend+0xbc/0x124) from [<c00a4848>] (pro
+cess_one_work+0x1c8/0x320)
+<4>[ 2685.479641] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2685.479854] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2685.480046] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<0>[ 2685.480228] msm_batt_early_suspend: enter
+<4>[ 2685.481104] [Cypress] cy8c_ts_deep_sleep : on
+<3>[ 2703.052824] Kevin Shiu key=116 key_code=111
+<3>[ 2703.224979] Kevin Shiu key=116 key_code=255
+<0>[ 2705.248126] lm3533_led_set: lm3533-light-button,  id:1 brightness:255
+<6>[ 2706.858146] request_suspend_state: wakeup (3->0) at 2705300133079 (2014-02
+-18 10:53:16.774913078 UTC)
+<4>[ 2706.938009] [Cypress] cy8c_ts_deep_sleep : off
+<0>[ 2706.940014] invalid_charger_irq_has_triggered=1
+<0>[ 2706.940134] BATT: rcvd: 0, 2, 0, 2; 4047, 29 ; 3 , 7
+<7>[ 2706.940423] msm_batt_late_resume: exit
+<3>[ 2706.940436] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:3/1568
+<4>[ 2706.940549] caller is smartass_suspend+0x10/0x148
+<4>[ 2706.940754] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2706.940944] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2706.941134] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2ee8>] (
+smartass_late_resume+0x38/0x68)
+<4>[ 2706.941248] [<c03d2ee8>] (smartass_late_resume+0x38/0x68) from [<c00bebf4>
+] (late_resume+0xb4/0xfc)
+<4>[ 2706.941438] [<c00bebf4>] (late_resume+0xb4/0xfc) from [<c00a4848>] (proces
+s_one_work+0x1c8/0x320)
+<4>[ 2706.941628] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2706.941816] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2706.942008] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<5>[ 2707.018376] VREG L1 ON
+<3>[ 2707.018391] Tracy:msm_fb_blank_panel_HW_reset_start
+<0>[ 2707.028194] lm3533_led_set: lm3533-light-sns,  id:0 brightness:0
+<3>[ 2707.068456] DSI1 PHY READY after 9636 polls!
+<0>[ 2707.238014] Tracy_mipi_ili9486_lcd_on_initial_cmd_finish
+<0>[ 2709.357611] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:219
+<0>[ 2711.308258] button off
+<0>[ 2711.328081] lm3533_led_set: lm3533-light-button,  id:1 brightness:0
+<0>[ 2712.478139] lm3533_led_set: lm3533-light-button,  id:1 brightness:255
+<0>[ 2717.458174] button off
+<0>[ 2717.478019] lm3533_led_set: lm3533-light-button,  id:1 brightness:0
+<0>[ 2746.058086] lm3533_led_set: lm3533-light-button,  id:1 brightness:255
+<0>[ 2754.518288] button off
+<0>[ 2754.538018] lm3533_led_set: lm3533-light-button,  id:1 brightness:0
+<0>[ 2756.388033] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:10
+<0>[ 2761.608053] lm3533_led_set: lm3533-light-backlight,  id:2 brightness:0
+<5>[ 2762.088453] VREG L1 OFF
+<6>[ 2762.971244] request_suspend_state: sleep (0->3) at 2761413234741 (2014-02-
+18 10:54:12.888014740 UTC)
+<3>[ 2762.971481] BUG: using smp_processor_id() in preemptible [00000000] code:
+kworker/u:4/91
+<4>[ 2762.971596] caller is smartass_suspend+0x10/0x148
+<4>[ 2762.971801] [<c00147f4>] (unwind_backtrace+0x0/0x11c) from [<c022cf68>] (d
+ebug_smp_processor_id+0xbc/0xf0)
+<4>[ 2762.971993] [<c022cf68>] (debug_smp_processor_id+0xbc/0xf0) from [<c03d1de
+4>] (smartass_suspend+0x10/0x148)
+<4>[ 2762.972108] [<c03d1de4>] (smartass_suspend+0x10/0x148) from [<c03d2f5c>] (
+smartass_early_suspend+0x44/0x74)
+<4>[ 2762.972299] [<c03d2f5c>] (smartass_early_suspend+0x44/0x74) from [<c00becf
+8>] (early_suspend+0xbc/0x124)
+<4>[ 2762.972488] [<c00becf8>] (early_suspend+0xbc/0x124) from [<c00a4848>] (pro
+cess_one_work+0x1c8/0x320)
+<4>[ 2762.972711] [<c00a4848>] (process_one_work+0x1c8/0x320) from [<c00a4b68>]
+(worker_thread+0x19c/0x2bc)
+<4>[ 2762.972903] [<c00a4b68>] (worker_thread+0x19c/0x2bc) from [<c00a8f74>] (kt
+hread+0x84/0x94)
+<4>[ 2762.973096] [<c00a8f74>] (kthread+0x84/0x94) from [<c000f24c>] (kernel_thr
+ead_exit+0x0/0x8)
+<0>[ 2762.973201] msm_batt_early_suspend: enter
+<4>[ 2762.974129] [Cypress] cy8c_ts_deep_sleep : on
