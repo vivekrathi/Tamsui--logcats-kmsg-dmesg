@@ -1,0 +1,12 @@
+Notice file: frameworks/base/tools/aapt/NOTICE -- /home/shivangdave/cm11/out/host/linux-x86/obj/NOTICE_FILES/src//bin/aapt.txt
+Notice file: frameworks/base/libs/androidfw/NOTICE -- /home/shivangdave/cm11/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libandroidfw.a.txt
+Notice file: system/core/libutils/NOTICE -- /home/shivangdave/cm11/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libutils.a.txt
+Notice file: system/core/libcutils/NOTICE -- /home/shivangdave/cm11/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libcutils.a.txt
+Notice file: external/expat/NOTICE -- /home/shivangdave/cm11/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libexpat.a.txt
+Notice file: external/libpng/NOTICE -- /home/shivangdave/cm11/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libpng.a.txt
+/bin/bash: -c: line 0: unexpected EOF while looking for matching `"'
+/bin/bash: -c: line 1: syntax error: unexpected end of file
+Notice file: system/core/liblog/NOTICE -- /home/shivangdave/cm11/out/host/linux-x86/obj/NOTICE_FILES/src//lib/liblog.a.txt
+make: *** [/home/shivangdave/cm11/out/target/product/mesona/system/build.prop] Error 1
+make: *** Deleting file `/home/shivangdave/cm11/out/target/product/mesona/system/build.prop'
+make: *** Waiting for unfinished jobs....
