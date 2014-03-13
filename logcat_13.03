@@ -1,0 +1,479 @@
+E/tadif   (  148): Failed to connect to tad.
+--------- beginning of /dev/log/system
+E/auditd  (  191): Failed on audit_set_pid with error: Protocol not supported
+E/cutils  (  201): Failed to read /data/.layout_version: No such file or directory
+E/AKMD2   (  205): AKD_InitDevice:63 Done. Error (Success).
+E/mm-camera(  209): qcamsvr_start: old_mode = 3f
+E/mm-camera(  209): qcamsvr_load_gesture_lib Error opening gesture library
+E/mm-camera(  209): Cannot init Gesture library
+E/overlay (  195): ERROR: MSMFB_MIXER_INFO ioctl failed
+E/cutils-trace(  195): Error opening trace file: No such file or directory (2)
+E/cutils-trace(  277): Error opening trace file: No such file or directory (2)
+E/MediaPlayerFactory(  200): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  200): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  200): registering DASH Player factory...
+F/libc    (  200): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 200 (mediaserver)
+E/auditd  (  374): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  375): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  375): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  375): registering DASH Player factory...
+F/libc    (  375): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 375 (mediaserver)
+E/auditd  (  577): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  578): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  578): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  578): registering DASH Player factory...
+F/libc    (  578): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 578 (mediaserver)
+E/auditd  (  614): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  615): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  615): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  615): registering DASH Player factory...
+F/libc    (  615): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 615 (mediaserver)
+E/auditd  (  620): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  621): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  621): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  621): registering DASH Player factory...
+F/libc    (  621): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 621 (mediaserver)
+E/auditd  (  626): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  627): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  627): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  627): registering DASH Player factory...
+F/libc    (  627): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 627 (mediaserver)
+E/auditd  (  636): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  637): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  637): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  637): registering DASH Player factory...
+F/libc    (  637): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 637 (mediaserver)
+E/auditd  (  642): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  643): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  643): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  643): registering DASH Player factory...
+F/libc    (  643): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 643 (mediaserver)
+E/cutils-trace(  196): Error opening trace file: No such file or directory (2)
+E/auditd  (  651): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  652): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  652): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  652): registering DASH Player factory...
+F/libc    (  652): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 652 (mediaserver)
+E/auditd  (  668): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  669): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  669): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  669): registering DASH Player factory...
+F/libc    (  669): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 669 (mediaserver)
+E/auditd  (  735): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  736): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  736): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  736): registering DASH Player factory...
+F/libc    (  736): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 736 (mediaserver)
+E/PackageParser(  656): Package com.cyanogenmod.services has no certificates at entry AndroidManifest.xml; ignoring!
+E/auditd  (  747): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  748): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  748): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  748): registering DASH Player factory...
+F/libc    (  748): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 748 (mediaserver)
+E/auditd  (  767): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  768): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  768): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  768): registering DASH Player factory...
+F/libc    (  768): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 768 (mediaserver)
+E/auditd  (  795): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  796): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  796): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  796): registering DASH Player factory...
+F/libc    (  796): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 796 (mediaserver)
+E/auditd  (  812): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  813): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  813): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  813): registering DASH Player factory...
+F/libc    (  813): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 813 (mediaserver)
+E/auditd  (  838): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  839): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  839): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  839): registering DASH Player factory...
+F/libc    (  839): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 839 (mediaserver)
+E/ConsumerIrService(  656): Can't open consumer IR HW Module, error: -2
+E/filemap (  656): mmap(0,4096) failed: No such device
+E/auditd  (  873): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  874): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  874): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  874): registering DASH Player factory...
+F/libc    (  874): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 874 (mediaserver)
+E/auditd  (  886): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  887): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  887): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  887): registering DASH Player factory...
+F/libc    (  887): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 887 (mediaserver)
+E/auditd  (  905): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  906): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  906): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  906): registering DASH Player factory...
+F/libc    (  906): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 906 (mediaserver)
+E/auditd  (  916): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  917): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  917): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  917): registering DASH Player factory...
+F/libc    (  917): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 917 (mediaserver)
+E/auditd  (  929): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  930): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  930): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  930): registering DASH Player factory...
+F/libc    (  930): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 930 (mediaserver)
+E/auditd  (  948): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  949): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  949): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  949): registering DASH Player factory...
+F/libc    (  949): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 949 (mediaserver)
+E/auditd  (  963): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  964): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  964): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  964): registering DASH Player factory...
+F/libc    (  964): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 964 (mediaserver)
+E/auditd  (  980): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory(  981): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  981): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  981): registering DASH Player factory...
+F/libc    (  981): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 981 (mediaserver)
+E/auditd  ( 1009): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1010): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1010): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1010): registering DASH Player factory...
+F/libc    ( 1010): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1010 (mediaserver)
+E/auditd  ( 1026): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1027): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1027): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1027): registering DASH Player factory...
+F/libc    ( 1027): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1027 (mediaserver)
+E/auditd  ( 1038): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1039): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1039): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1039): registering DASH Player factory...
+F/libc    ( 1039): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1039 (mediaserver)
+E/auditd  ( 1051): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1052): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1052): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1052): registering DASH Player factory...
+F/libc    ( 1052): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1052 (mediaserver)
+E/ConnectivityService(  656): Ignoring protectedNetwork 10
+E/ConnectivityService(  656): Ignoring protectedNetwork 11
+E/ConnectivityService(  656): Ignoring protectedNetwork 12
+E/ConnectivityService(  656): Ignoring protectedNetwork 14
+E/MobileDataStateTracker(  656): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  656): default: Could not enable APN type "default"
+E/AudioService(  656): Media server died.
+E/auditd  ( 1074): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1075): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1075): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1075): registering DASH Player factory...
+F/libc    ( 1075): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1075 (mediaserver)
+E/auditd  ( 1079): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1080): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1080): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1080): registering DASH Player factory...
+F/libc    ( 1080): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1080 (mediaserver)
+E/auditd  ( 1084): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1085): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1085): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1085): registering DASH Player factory...
+F/libc    ( 1085): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1085 (mediaserver)
+E/auditd  ( 1089): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1090): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1090): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1090): registering DASH Player factory...
+F/libc    ( 1090): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1090 (mediaserver)
+E/auditd  ( 1094): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1095): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1095): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1095): registering DASH Player factory...
+F/libc    ( 1095): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1095 (mediaserver)
+E/auditd  ( 1099): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1100): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1100): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1100): registering DASH Player factory...
+F/libc    ( 1100): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1100 (mediaserver)
+E/auditd  ( 1104): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1105): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1105): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1105): registering DASH Player factory...
+F/libc    ( 1105): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1105 (mediaserver)
+E/auditd  ( 1109): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1110): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1110): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1110): registering DASH Player factory...
+F/libc    ( 1110): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1110 (mediaserver)
+E/auditd  ( 1114): Failed on audit_set_pid with error: Protocol not supported
+E/MediaPlayerFactory( 1115): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1115): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 1115): registering DASH Player factory...
+F/libc    ( 1115): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 1115 (mediaserver)
+E/auditd  ( 1119): Failed on audit_set_pid with error: Protocol not supported
+
+
+aand this log never ends. Bootloop as shit.
+
+
+And here is full sequence of error:
+
+F/libc    (  697): Fatal signal 7 (SIGBUS) at 0x0000008f (code=1), thread 697 (mediaserver)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+I/DEBUG   (  192): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  192): Build fingerprint: 'SEMC/ST26i_1257-4009/ST26i:4.0.4/6.1.A.0.452/O_5_zw:user/release-keys'
+I/DEBUG   (  192): Revision: '0'
+I/DEBUG   (  192): pid: 697, tid: 697, name: mediaserver  >>> /system/bin/mediaserver <<<
+I/DEBUG   (  192): signal 7 (SIGBUS), code 1 (BUS_ADRALN), fault addr 0000008f
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+I/DEBUG   (  192):     r0 0000008f  r1 bea6c928  r2 00000008  r3 0000008f
+I/DEBUG   (  192):     r4 01fe58f8  r5 01fe5900  r6 01fe5460  r7 4036b8d9
+I/DEBUG   (  192):     r8 00000000  r9 00000000  sl 00000000  fp bea6cb3c
+I/DEBUG   (  192):     ip 40391f2c  sp bea6c8e8  lr 40389d0b  pc 40455614  cpsr 00070010
+I/DEBUG   (  192):     d0  6f696475416d7041  d1  4242424242424242
+I/DEBUG   (  192):     d2  736d2e6172656d61  d3  732e61373278376d
+I/DEBUG   (  192):     d4  0000000000000000  d5  0000000000000000
+I/DEBUG   (  192):     d6  0000000000000000  d7  3f80000000000000
+I/DEBUG   (  192):     d8  0000000000000000  d9  0000000000000000
+I/DEBUG   (  192):     d10 0000000000000000  d11 0000000000000000
+I/DEBUG   (  192):     d12 0000000000000000  d13 0000000000000000
+I/DEBUG   (  192):     d14 0000000000000000  d15 0000000000000000
+I/DEBUG   (  192):     d16 41981bd38dcdd2f2  d17 0000000000000001
+I/DEBUG   (  192):     d18 419c6b99ec000000  d19 0000000000000000
+I/DEBUG   (  192):     d20 0000000000000000  d21 0000000000000000
+I/DEBUG   (  192):     d22 0000000000000000  d23 0000000000000000
+I/DEBUG   (  192):     d24 0000000000000000  d25 0000000000000000
+I/DEBUG   (  192):     d26 0000000000000000  d27 0000000000000000
+I/DEBUG   (  192):     d28 0000000000000000  d29 0000000000000000
+I/DEBUG   (  192):     d30 0000000000000000  d31 0000000000000000
+I/DEBUG   (  192):     scr 00000010
+I/DEBUG   (  192): 
+I/DEBUG   (  192): backtrace:
+I/DEBUG   (  192):     #00  pc 00003614  /system/lib/libcutils.so (android_atomic_inc+8)
+I/DEBUG   (  192):     #01  pc 0000dd07  /system/lib/libutils.so (android::RefBase::createWeak(void const*) const+8)
+I/DEBUG   (  192):     #02  pc 0001cd93  /system/lib/libaudioflinger.so
+I/DEBUG   (  192):     #03  pc 000297cb  /system/lib/libaudioflinger.so (android::AudioPolicyService::AudioPolicyService()+190)
+I/DEBUG   (  192):     #04  pc 00001ba5  /system/bin/mediaserver
+I/DEBUG   (  192):     #05  pc 00001d73  /system/bin/mediaserver
+I/DEBUG   (  192):     #06  pc 0000e49b  /system/lib/libc.so (__libc_init+50)
+I/DEBUG   (  192):     #07  pc 000017e8  /system/bin/mediaserver
+I/DEBUG   (  192): 
+I/DEBUG   (  192): stack:
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+I/DEBUG   (  192):          bea6c8a8  00000008  
+I/DEBUG   (  192):          bea6c8ac  403306b2  /system/lib/libaudioflinger.so
+I/DEBUG   (  192):          bea6c8b0  4036b8d9  /system/lib/libbinder.so
+I/DEBUG   (  192):          bea6c8b4  00000000  
+I/DEBUG   (  192):          bea6c8b8  00000000  
+I/DEBUG   (  192):          bea6c8bc  00000000  
+I/DEBUG   (  192):          bea6c8c0  bea6cb3c  [stack]
+I/DEBUG   (  192):          bea6c8c4  405b2d51  /system/lib/libc.so (malloc+16)
+I/DEBUG   (  192):          bea6c8c8  754f6d70  
+I/DEBUG   (  192):          bea6c8cc  40389d55  /system/lib/libutils.so (android::SharedBuffer::alloc(unsigned int)+12)
+I/DEBUG   (  192):          bea6c8d0  01fe5c10  [heap]
+I/DEBUG   (  192):          bea6c8d4  4038a04b  /system/lib/libutils.so
+I/DEBUG   (  192):          bea6c8d8  bea6c924  [stack]
+I/DEBUG   (  192):          bea6c8dc  403306b2  /system/lib/libaudioflinger.so
+I/DEBUG   (  192):          bea6c8e0  01fe5460  [heap]
+I/DEBUG   (  192):          bea6c8e4  4038a139  /system/lib/libutils.so (android::String8::String8(char const*)+20)
+I/DEBUG   (  192):     #00  bea6c8e8  bea6c928  [stack]
+I/DEBUG   (  192):          ........  ........
+I/DEBUG   (  192):     #01  bea6c8e8  bea6c928  [stack]
+I/DEBUG   (  192):          bea6c8ec  4031ad97  /system/lib/libaudioflinger.so
+I/DEBUG   (  192):     #02  bea6c8f0  01fe58a0  [heap]
+I/DEBUG   (  192):          bea6c8f4  403277cf  /system/lib/libaudioflinger.so (android::AudioPolicyService::AudioPolicyService()+194)
+I/DEBUG   (  192): 
+I/DEBUG   (  192): memory near r1:
+I/DEBUG   (  192):     bea6c908 00000000 00000000 00000000 00000000  
+I/DEBUG   (  192):     bea6c918 4036b8d9 00000000 01fe58b4 01fe5c10  
+I/DEBUG   (  192):     bea6c928 01fe58a0 01fe5700 40378154 01fe58a0  
+I/DEBUG   (  192):     bea6c938 bea6cb4c 00009ba9 00000000 01fe5460  
+I/DEBUG   (  192):     bea6c948 01fe5870 01fe5480 00000000 bea6cb4c  
+I/DEBUG   (  192):     bea6c958 0000bf2c bea6cb44 405f3388 00009d77  
+I/DEBUG   (  192):     bea6c968 400eb678 400e6671 400e71df 00000004  
+I/DEBUG   (  192):     bea6c978 400e6671 400e716c 40221800 40221004  
+I/DEBUG   (  192):     bea6c988 0000bee0 01fe5050 400eb678 400e6671  
+I/DEBUG   (  192):     bea6c998 400e71df 400eb1d0 01fe5460 400dc961  
+I/DEBUG   (  192):     bea6c9a8 00000000 400ebccc 00000000 400ebccc  
+I/DEBUG   (  192):     bea6c9b8 40221004 400eb680 400eb678 00009788  
+I/DEBUG   (  192):     bea6c9c8 40221004 400dd065 00000000 00000000  
+I/DEBUG   (  192):     bea6c9d8 00000000 00000000 00000001 bea6cb44  
+I/DEBUG   (  192):     bea6c9e8 bea6cb4c bea6cb8c 400ebcf0 00000000  
+I/DEBUG   (  192):     bea6c9f8 00000000 00000000 00000000 00000000  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): memory near r4:
+I/DEBUG   (  192):     01fe58d8 00000000 00000008 40337430 00000000  
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+I/DEBUG   (  192):     01fe58e8 00000000 00000007 00000008 00000000  
+I/DEBUG   (  192):     01fe58f8 40337870 0000008b 40337aac 00000000  
+I/DEBUG   (  192):     01fe5908 01fe59b8 00000000 00000000 00000000  
+I/DEBUG   (  192):     01fe5918 00000100 00000000 000002bc 00000000  
+I/DEBUG   (  192):     01fe5928 00000000 40337578 00000000 00000000  
+I/DEBUG   (  192):     01fe5938 00000007 00000004 00000000 00000000  
+I/DEBUG   (  192):     01fe5948 ffffffff 00000000 00000000 00000000  
+I/DEBUG   (  192):     01fe5958 00000000 00000000 00000000 00000000  
+I/DEBUG   (  192):     01fe5968 01fe54a8 01fe58a0 01fe5700 40337ae4  
+I/DEBUG   (  192):     01fe5978 01fe5988 00000000 00000000 0000001b  
+I/DEBUG   (  192):     01fe5988 00000002 00000003 01fe5974 00000000  
+I/DEBUG   (  192):     01fe5998 00000000 00000019 405f31c0 405f31c0  
+I/DEBUG   (  192):     01fe59a8 fffffff0 01fe54b8 00000018 0000024a  
+I/DEBUG   (  192):     01fe59b8 400ebf20 00000000 00000001 40cff000  
+I/DEBUG   (  192):     01fe59c8 000fe000 00001000 00000000 00000000  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): memory near r5:
+I/DEBUG   (  192):     01fe58e0 40337430 00000000 00000000 00000007  
+I/DEBUG   (  192):     01fe58f0 00000008 00000000 40337870 0000008b  
+I/DEBUG   (  192):     01fe5900 40337aac 00000000 01fe59b8 00000000  
+I/DEBUG   (  192):     01fe5910 00000000 00000000 00000100 00000000  
+I/DEBUG   (  192):     01fe5920 000002bc 00000000 00000000 40337578  
+I/DEBUG   (  192):     01fe5930 00000000 00000000 00000007 00000004  
+I/DEBUG   (  192):     01fe5940 00000000 00000000 ffffffff 00000000  
+I/DEBUG   (  192):     01fe5950 00000000 00000000 00000000 00000000  
+I/DEBUG   (  192):     01fe5960 00000000 00000000 01fe54a8 01fe58a0  
+I/DEBUG   (  192):     01fe5970 01fe5700 40337ae4 01fe5988 00000000  
+I/DEBUG   (  192):     01fe5980 00000000 0000001b 00000002 00000003  
+I/DEBUG   (  192):     01fe5990 01fe5974 00000000 00000000 00000019  
+I/DEBUG   (  192):     01fe59a0 405f31c0 405f31c0 fffffff0 01fe54b8  
+I/DEBUG   (  192):     01fe59b0 00000018 0000024a 400ebf20 00000000  
+I/DEBUG   (  192):     01fe59c0 00000001 40cff000 000fe000 00001000  
+I/DEBUG   (  192):     01fe59d0 00000000 00000000 000002bc 00000001  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): memory near r6:
+I/DEBUG   (  192):     01fe5440 01fe5448 0000001b 00000001 00000002  
+I/DEBUG   (  192):     01fe5450 01fe543c 00000001 00000000 00000023  
+I/DEBUG   (  192):     01fe5460 40378154 40378180 01fe5408 01fe5448  
+I/DEBUG   (  192):     01fe5470 00000001 403781b0 01fe5480 0000001b  
+I/DEBUG   (  192):     01fe5480 00000003 00000003 01fe5474 00000001  
+I/DEBUG   (  192):     01fe5490 00000000 00000023 00000001 00000008  
+I/DEBUG   (  192):     01fe54a0 00000000 00000000 546d7041 00656e6f  
+I/DEBUG   (  192):     01fe54b0 002e0061 00000011 405f31b8 405f31b8  
+I/DEBUG   (  192):     01fe54c0 00000010 00000012 40825dd0 00000072  
+I/DEBUG   (  192):     01fe54d0 00000010 00000153 40333c84 40333d68  
+I/DEBUG   (  192):     01fe54e0 00000000 00000000 00000000 00000000  
+I/DEBUG   (  192):     01fe54f0 40333238 00000000 00000000 00000000  
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+I/DEBUG   (  192):     01fe5500 0000000c 00000000 01fe5460 00000000  
+I/DEBUG   (  192):     01fe5510 00000000 403332a8 00000000 00000000  
+I/DEBUG   (  192):     01fe5520 00000007 00000008 00000000 00000000  
+I/DEBUG   (  192):     01fe5530 40333318 00000000 00000000 00000000  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): memory near r7:
+I/DEBUG   (  192):     4036b8b8 a90e47a8 f0024620 a80efd43 f938f002  
+I/DEBUG   (  192):     4036b8c8 f002a802 4620f935 bd70b01a 0000f7ca  
+I/DEBUG   (  192):     4036b8d8 b09bb5f0 a8024604 461f4616 f001460d  
+I/DEBUG   (  192):     4036b8e8 a80efee8 fee5f001 a8024914 f0024479  
+I/DEBUG   (  192):     4036b8f8 4629fe9b f002a802 4631fe8a f002a802  
+I/DEBUG   (  192):     4036b908 4639fc51 f002a802 68a0fd67 68032200  
+I/DEBUG   (  192):     4036b918 92002103 695caa02 47a0ab0e b9184604  
+I/DEBUG   (  192):     4036b928 f002a80e 4604ff5a f002a80e a802f901  
+I/DEBUG   (  192):     4036b938 f8fef002 b01b4620 bf00bdf0 0000f770  
+I/DEBUG   (  192):     4036b948 41f0e92d b09c4d23 2200460f 447d2104  
+I/DEBUG   (  192):     4036b958 f7fa4604 4b20ea1e 8080f8df 44f858e8  
+I/DEBUG   (  192):     4036b968 25003008 a8046020 fea3f001 f001a810  
+I/DEBUG   (  192):     4036b978 4641fea0 f002a804 4629fe57 f002a804  
+I/DEBUG   (  192):     4036b988 68b8fd2b 68012200 92001c6e 694dab10  
+I/DEBUG   (  192):     4036b998 2104aa04 b99047a8 a910a803 ff8cf002  
+I/DEBUG   (  192):     4036b9a8 4620a903 ea00f7fa f7faa803 a810e9b0  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): memory near fp:
+I/DEBUG   (  192):     bea6cb1c 00000000 00000000 000097ec 0000bd18  
+I/DEBUG   (  192):     bea6cb2c 0000bd20 0000bd2c bea6cb40 00000000  
+I/DEBUG   (  192):     bea6cb3c 400db88d 00000001 bea6cc34 00000000  
+I/DEBUG   (  192):     bea6cb4c bea6cc4c bea6cc89 bea6ccb1 bea6ccc4  
+I/DEBUG   (  192):     bea6cb5c bea6ccd9 bea6ccf4 bea6cd07 bea6cd20  
+I/DEBUG   (  192):     bea6cb6c bea6cd3a bea6cd53 bea6cf4d bea6cf6f  
+I/DEBUG   (  192):     bea6cb7c bea6cf92 bea6cfa7 bea6cfc5 00000000  
+I/DEBUG   (  192):     bea6cb8c 00000010 0001b8d7 00000006 00001000  
+I/DEBUG   (  192):     bea6cb9c 00000011 00000064 00000003 00008034  
+I/DEBUG   (  192):     bea6cbac 00000004 00000020 00000005 00000008  
+I/DEBUG   (  192):     bea6cbbc 00000007 400da000 00000008 00000000  
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+I/DEBUG   (  192):     bea6cbcc 00000009 00009788 0000000b 000003f5  
+I/DEBUG   (  192):     bea6cbdc 0000000c 000003f5 0000000d 000003ed  
+I/DEBUG   (  192):     bea6cbec 0000000e 000003ed 00000017 00000000  
+I/DEBUG   (  192):     bea6cbfc 00000019 bea6cc20 0000001f bea6cfe4  
+I/DEBUG   (  192):     bea6cc0c 0000000f bea6cc30 00000000 00000000  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): memory near ip:
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+I/DEBUG   (  192):     40391f0c 405d09ad 405b7231 405b7289 405cb7e5  
+I/DEBUG   (  192):     40391f1c 405c96c8 405c7828 405cec81 405d03c1  
+I/DEBUG   (  192):     40391f2c 4045560c 404555ec 4045562c 404555c4  
+I/DEBUG   (  192):     40391f3c 40455670 405b2d95 405df773 405c7eb1  
+I/DEBUG   (  192):     40391f4c 405cdb55 405d0921 405df547 405c86b7  
+I/DEBUG   (  192):     40391f5c 405d2da5 405c54d0 405d2189 405b7e33  
+I/DEBUG   (  192):     40391f6c 405b7e5b 405b7ea3 405b2380 405b7e4d  
+I/DEBUG   (  192):     40391f7c 405b3a44 405b3940 405c5354 405c5234  
+I/DEBUG   (  192):     40391f8c 40456b89 405b819d 405c506c 405d201b  
+I/DEBUG   (  192):     40391f9c 405b371c 405b3e64 405b40c8 405b41ac  
+I/DEBUG   (  192):     40391fac 405b3ea8 405b3dd0 405b3ecc 405c5fd8  
+I/DEBUG   (  192):     40391fbc 405c5f58 405df9bc 405dfa98 400ca927  
+I/DEBUG   (  192):     40391fcc 405c5bfc 400ca919 405c53fc 405b2818  
+I/DEBUG   (  192):     40391fdc 405b411c 405b2a68 405b2a88 405c541c  
+I/DEBUG   (  192):     40391fec 405c6850 405c6870 405c57a0 405d125d  
+I/DEBUG   (  192):     40391ffc 405c6830 40392000 ffffffff 00000001  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): memory near sp:
+I/DEBUG   (  192):     bea6c8c8 754f6d70 40389d55 01fe5c10 4038a04b  
+I/DEBUG   (  192):     bea6c8d8 bea6c924 403306b2 01fe5460 4038a139  
+I/DEBUG   (  192):     bea6c8e8 bea6c928 4031ad97 01fe58a0 403277cf  
+I/DEBUG   (  192):     bea6c8f8 01fe58a0 405b6001 00000000 00000000  
+I/DEBUG   (  192):     bea6c908 00000000 00000000 00000000 00000000  
+I/DEBUG   (  192):     bea6c918 4036b8d9 00000000 01fe58b4 01fe5c10  
+I/DEBUG   (  192):     bea6c928 01fe58a0 01fe5700 40378154 01fe58a0  
+I/DEBUG   (  192):     bea6c938 bea6cb4c 00009ba9 00000000 01fe5460  
+I/DEBUG   (  192):     bea6c948 01fe5870 01fe5480 00000000 bea6cb4c  
+I/DEBUG   (  192):     bea6c958 0000bf2c bea6cb44 405f3388 00009d77  
+I/DEBUG   (  192):     bea6c968 400eb678 400e6671 400e71df 00000004  
+I/DEBUG   (  192):     bea6c978 400e6671 400e716c 40221800 40221004  
+I/DEBUG   (  192):     bea6c988 0000bee0 01fe5050 400eb678 400e6671  
+I/DEBUG   (  192):     bea6c998 400e71df 400eb1d0 01fe5460 400dc961  
+I/DEBUG   (  192):     bea6c9a8 00000000 400ebccc 00000000 400ebccc  
+I/DEBUG   (  192):     bea6c9b8 40221004 400eb680 400eb678 00009788  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): code around pc:
+I/DEBUG   (  192):     404555f4 e1910f9f e080c003 e1812f9c e3520000  
+I/DEBUG   (  192):     40455604 1afffffa e12fff1e e1a03000 f57ff05f  
+I/DEBUG   (  192):     40455614 e1930f9f e2801001 e1832f91 e3520000  
+I/DEBUG   (  192):     40455624 1afffffa e12fff1e e1a03000 f57ff05f  
+I/DEBUG   (  192):     40455634 e3e02000 e1930f9f e080c002 e1831f9c  
+I/DEBUG   (  192):     40455644 e3510000 1afffffa e12fff1e e1a03000  
+I/DEBUG   (  192):     40455654 f57ff05f e1910f9f e000c003 e1812f9c  
+I/DEBUG   (  192):     40455664 e3520000 1afffffa e12fff1e e1a03000  
+I/DEBUG   (  192):     40455674 f57ff05f e1910f9f e180c003 e1812f9c  
+I/DEBUG   (  192):     40455684 e3520000 1afffffa e12fff1e 6883b508  
+I/DEBUG   (  192):     40455694 47984608 2140ea6f ea801840 eb023290  
+I/DEBUG   (  192):     404556a4 ea831302 bd082093 2203b5f8 69436846  
+I/DEBUG   (  192):     404556b4 46044372 0f92ebb3 0076d923 21044630  
+I/DEBUG   (  192):     404556c4 ec44f7ff b1e04605 1e772200 6821e011  
+I/DEBUG   (  192):     404556d4 3022f851 6858e00a e00cf8d3 0c00ea07  
+I/DEBUG   (  192):     404556e4 102cf855 f84560d9 4673302c d1f22b00  
+I/DEBUG   (  192): 
+I/DEBUG   (  192): code around lr:
+I/DEBUG   (  192):     40389ce8 bfd42c00 20012000 6874bd70 dcf12c00  
+I/DEBUG   (  192):     40389cf8 6840e7f6 b5104770 68404604 f7fd3004  
+I/DEBUG   (  192):     40389d08 6860e930 0000bd10 b5104b09 447b4604  
+I/DEBUG   (  192):     40389d18 60033308 f7fd2010 2100e84c 5280f04f  
+I/DEBUG   (  192):     40389d28 60026084 60c16041 46206060 bf00bd10  
+I/DEBUG   (  192):     40389d38 00007b26 46086843 010cf103 be86f003  
+I/DEBUG   (  192):     40389d48 4604b510 0010f100 e81af7fd 2301b110  
+I/DEBUG   (  192):     40389d58 0018e880 b510bd10 b91c6804 e804f7fd  
+I/DEBUG   (  192):     40389d68 bd104620 30fff04f 6803bd10 bf182b01  
+I/DEBUG   (  192):     40389d78 47702000 be5af003 6803b538 2b014604  
+I/DEBUG   (  192):     40389d88 d008460d e8f8f7fd d1092801 4620e003  
+I/DEBUG   (  192):     40389d98 efeaf7fc 2000e003 602007eb 2001d5f7  
+I/DEBUG   (  192):     40389da8 b538bd38 46084605 ffcaf7ff b1184604  
+I/DEBUG   (  192):     40389db8 21004628 ffe0f7ff bd384620 6803b570  
+I/DEBUG   (  192):     40389dc8 2b014604 d109460d 42a96841 f105d01a  
+I/DEBUG   (  192):     40389dd8 f7fd0110 b108e8e4 bd706045 f7ff4628  
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+W/SurfaceFlinger(  194): HWC_FRAMEBUFFER_TARGET found in hwc list (index=0)
+I/ServiceManager(  188): service 'media.audio_flinger' died
+I/ServiceManager(  188): service 'media.player' died
+I/ServiceManager(  188): service 'media.camera' died
+
