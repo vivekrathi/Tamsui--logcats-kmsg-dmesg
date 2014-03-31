@@ -1,0 +1,71 @@
+--------- beginning of /dev/log/main
+E/tadif   (  148): Failed to connect to tad.
+--------- beginning of /dev/log/system
+E/auditd  (  173): Failed on audit_set_pid with error: Protocol not supported
+E/cutils  (  182): Failed to read /data/.layout_version: No such file or directory
+E/AKMD2   (  187): AKD_InitDevice:63 Done. Error (Success).
+E/mm-camera(  189): qcamsvr_start: old_mode = 3f
+E/mm-camera(  189): qcamsvr_load_gesture_lib Error opening gesture library
+E/mm-camera(  189): Cannot init Gesture library
+E/overlay (  177): ERROR: MSMFB_MIXER_INFO ioctl failed
+E/cutils-trace(  177): Error opening trace file: No such file or directory (2)
+E/cutils-trace(  258): Error opening trace file: No such file or directory (2)
+E/MediaPlayerFactory(  180): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  180): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  180): registering DASH Player factory...
+E/AudioHardwareMSM76XXA(  180): audioeq library open failure
+E/AudioFlinger(  180): no wake lock to update!
+E/auditd  (  378): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  574): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  597): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  601): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  609): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  613): Failed on audit_set_pid with error: Protocol not supported
+E/cutils-trace(  178): Error opening trace file: No such file or directory (2)
+E/dalvikvm(  178): dlopen("/system/lib/libwebviewchromium.so") failed: dlopen failed: empty/missing DT_HASH in "libwebviewchromium.so" (built with --hash-style=gnu?)
+E/auditd  (  621): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  682): Failed on audit_set_pid with error: Protocol not supported
+E/PackageParser(  624): Package com.cyanogenmod.services has no certificates at entry AndroidManifest.xml; ignoring!
+E/auditd  (  705): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  726): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  754): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  784): Failed on audit_set_pid with error: Protocol not supported
+E/SELinuxMMAC(  624): Error opening /data/system/seapp_hash. Assuming first boot.
+E/SELinuxMMAC(  624): java.io.FileNotFoundException: /data/system/seapp_hash: open failed: ENOENT (No such file or directory)
+E/SELinuxMMAC(  624): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+E/SELinuxMMAC(  624): 	at libcore.io.IoUtils$FileReader.<init>(IoUtils.java:207)
+E/SELinuxMMAC(  624): 	at libcore.io.IoUtils.readFileAsByteArray(IoUtils.java:107)
+E/SELinuxMMAC(  624): 	at com.android.server.pm.SELinuxMMAC.shouldRestorecon(SELinuxMMAC.java:427)
+E/SELinuxMMAC(  624): 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1553)
+E/SELinuxMMAC(  624): 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1079)
+E/SELinuxMMAC(  624): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:297)
+E/SELinuxMMAC(  624): 	at com.android.server.SystemServer.main(SystemServer.java:1342)
+E/SELinuxMMAC(  624): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SELinuxMMAC(  624): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SELinuxMMAC(  624): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:791)
+E/SELinuxMMAC(  624): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:607)
+E/SELinuxMMAC(  624): 	at dalvik.system.NativeStart.main(Native Method)
+E/SELinuxMMAC(  624): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+E/SELinuxMMAC(  624): 	at libcore.io.Posix.open(Native Method)
+E/SELinuxMMAC(  624): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+E/SELinuxMMAC(  624): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+E/SELinuxMMAC(  624): 	... 12 more
+E/ConsumerIrService(  624): Can't open consumer IR HW Module, error: -2
+E/filemap (  624): mmap(0,4096) failed: No such device
+E/auditd  (  823): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  842): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  859): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  880): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  897): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  906): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  918): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  935): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  944): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  961): Failed on audit_set_pid with error: Protocol not supported
+E/auditd  (  972): Failed on audit_set_pid with error: Protocol not supported
+E/ConnectivityService(  624): Ignoring protectedNetwork 10
+E/ConnectivityService(  624): Ignoring protectedNetwork 11
+E/ConnectivityService(  624): Ignoring protectedNetwork 12
+E/ConnectivityService(  624): Ignoring protectedNetwork 14
+E/MobileDataStateTracker(  624): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  624): default: Could not enable APN type "default"
