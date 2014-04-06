@@ -1,0 +1,57 @@
+adb logcat *:E of H/W video playback attempt in youtube
+
+E/YouTube ( 2832): apps.youtube.core.player.Director.M:414 Media progress reported outside media playback: NEW
+E/Volley  ( 2832): [243] a.a: Unexpected response code 302 for http://adclick.g.doubleclick.net/aclk?sa=L&ai=BAE-mf6hBU6LLH4aO7gaFmICYBM2Xhb0GAAAAEAEgADgAWM3SyPiKAWC7rtKD4AqCARdjYS1wdWItMjYxNDY2NjI2MTU3OTc0MbIBGHd3dy5kY2xrLWRlZmF1bHQtcmVmLmNvbboBCWdmcF9pbWFnZcgBCdoBIGh0dHA6Ly93d3cuZGNsay1kZWZhdWx0LXJlZi5jb20vwAIC4AIA6gIYNDA2MS9hcHAueXRob21lL19kZWZhdWx0-AL80R6AAwGQA4wGmAPgA6gDAeAEAaAGINgGAg&num=0&sig=AOD64_2xKEVuQGu-xSb5BsAgeeI-Log-Sw&client=ca-pub-2614666261579741&adurl=
+E/omx_vdec(  177): m_enable_android_native_buffers 1
+E/omx_vdec(  177): get_parameter: OMX_GoogleAndroidIndexGetAndroidNativeBufferUsage
+E/memalloc(  174): unrecognized pixel format: 0x7fa30c00
+E/        (  174): GraphicBufferAlloc::createGraphicBuffer(w=320, h=180) failed (Invalid argument), handle=0x0
+E/BufferQueue( 2832): [unnamed-2832-0] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/OMXCodec(  177): dequeueBuffer failed: Invalid argument (22)
+E/OMXCodec(  177): [OMX.qcom.video.decoder.mpeg4] Allocate Buffer failed - error = -22
+E/OMXCodec(  177): [OMX.qcom.video.decoder.mpeg4] init failed: -22
+E/omx_vdec(  177): Invalid state to free buffer,port lost Buffers, m_state=1
+E/omx_vdec(  177): Invalid state to free buffer,port lost Buffers, m_state=1
+E/AwesomePlayer(  177): failed to start video source
+E/MediaPlayer( 2832): error (1, -22)
+E/MediaPlayer( 2832): Error (1,-22)
+E/omx_vdec(  177): m_enable_android_native_buffers 1
+E/omx_vdec(  177): get_parameter: OMX_GoogleAndroidIndexGetAndroidNativeBufferUsage
+E/memalloc(  174): unrecognized pixel format: 0x7fa30c00
+E/        (  174): GraphicBufferAlloc::createGraphicBuffer(w=320, h=180) failed (Invalid argument), handle=0x0
+E/BufferQueue( 2832): [unnamed-2832-0] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/OMXCodec(  177): dequeueBuffer failed: Invalid argument (22)
+E/OMXCodec(  177): [OMX.qcom.video.decoder.mpeg4] Allocate Buffer failed - error = -22
+E/OMXCodec(  177): [OMX.qcom.video.decoder.mpeg4] init failed: -22
+E/omx_vdec(  177): Invalid state to free buffer,port lost Buffers, m_state=1
+E/omx_vdec(  177): Invalid state to free buffer,port lost Buffers, m_state=1
+E/AwesomePlayer(  177): failed to start video source
+E/MediaPlayer( 2832): error (1, -22)
+E/MediaPlayer( 2832): Error (1,-22)
+E/omx_vdec(  177): m_enable_android_native_buffers 1
+E/omx_vdec(  177): get_parameter: OMX_GoogleAndroidIndexGetAndroidNativeBufferUsage
+E/memalloc(  174): unrecognized pixel format: 0x7fa30c00
+E/        (  174): GraphicBufferAlloc::createGraphicBuffer(w=320, h=180) failed (Invalid argument), handle=0x0
+E/BufferQueue( 2832): [unnamed-2832-0] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/OMXCodec(  177): dequeueBuffer failed: Invalid argument (22)
+E/OMXCodec(  177): [OMX.qcom.video.decoder.mpeg4] Allocate Buffer failed - error = -22
+E/OMXCodec(  177): [OMX.qcom.video.decoder.mpeg4] init failed: -22
+E/omx_vdec(  177): Invalid state to free buffer,port lost Buffers, m_state=1
+E/omx_vdec(  177): Invalid state to free buffer,port lost Buffers, m_state=1
+E/AwesomePlayer(  177): failed to start video source
+E/MediaPlayer( 2832): error (1, -22)
+E/MediaPlayer( 2832): Error (1,-22)
+E/omx_vdec(  177): m_enable_android_native_buffers 1
+E/omx_vdec(  177): get_parameter: OMX_GoogleAndroidIndexGetAndroidNativeBufferUsage
+E/memalloc(  174): unrecognized pixel format: 0x7fa30c00
+E/        (  174): GraphicBufferAlloc::createGraphicBuffer(w=320, h=180) failed (Invalid argument), handle=0x0
+E/BufferQueue( 2832): [unnamed-2832-0] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/OMXCodec(  177): dequeueBuffer failed: Invalid argument (22)
+E/OMXCodec(  177): [OMX.qcom.video.decoder.mpeg4] Allocate Buffer failed - error = -22
+E/OMXCodec(  177): [OMX.qcom.video.decoder.mpeg4] init failed: -22
+E/omx_vdec(  177): Invalid state to free buffer,port lost Buffers, m_state=1
+E/omx_vdec(  177): Invalid state to free buffer,port lost Buffers, m_state=1
+E/AwesomePlayer(  177): failed to start video source
+E/MediaPlayer( 2832): error (1, -22)
+E/MediaPlayer( 2832): Error (1,-22)
+E/YouTube ( 2832): apps.youtube.core.player.Director.O:450 Unhandled state in setControlsState.
