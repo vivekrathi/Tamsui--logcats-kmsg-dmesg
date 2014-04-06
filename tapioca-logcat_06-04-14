@@ -1,0 +1,52 @@
+--------- beginning of /dev/log/main
+E/tadif   (  144): Failed to connect to tad.
+--------- beginning of /dev/log/system
+E/overlay (  174): ERROR: MSMFB_MIXER_INFO ioctl failed
+E/cutils-trace(  174): Error opening trace file: No such file or directory (2)
+E/MediaPlayerFactory(  177): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  177): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  177): registering DASH Player factory...
+E/cutils-trace(  262): Error opening trace file: No such file or directory (2)
+E/mm-camif(  177): mm_camera_get_camera_info: controlfd is invalid No such file or directory
+E/AudioHardwareMSM76XXA(  177): audioeq library open failure
+E/AudioFlinger(  177): no wake lock to update!
+E/cutils-trace(  175): Error opening trace file: No such file or directory (2)
+E/Sensors (  589): couldn't find 'compass' input device
+E/PackageParser(  589): Package com.cyanogenmod.services has no certificates at entry AndroidManifest.xml; ignoring!
+E/ConsumerIrService(  589): Can't open consumer IR HW Module, error: -2
+E/KeyLayoutMap(  589): /system/usr/keylayout/fih_gpio-keys.kl:106: Expected key code label, got 'DSDS_SWITCH'.
+E/KeyCharacterMap(  589): /system/usr/keychars/fih_gpio-keys.kcm:17: Expected keyword, got '[type=NUMERIC]'.
+E/KeyCharacterMap(  589): /system/usr/keychars/simple_remote_appkey.kcm:17: Expected keyword, got '[type=QWERTY]'.
+E/filemap (  589): mmap(0,4096) failed: No such device
+E/KeyCharacterMap(  589): /system/usr/keychars/cyttsp_i2c_tma340.kcm:17: Expected keyword, got '[type=NUMERIC]'.
+E/ConnectivityService(  589): Ignoring protectedNetwork 10
+E/ConnectivityService(  589): Ignoring protectedNetwork 11
+E/ConnectivityService(  589): Ignoring protectedNetwork 12
+E/ConnectivityService(  589): Ignoring protectedNetwork 14
+E/MobileDataStateTracker(  589): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  589): default: Could not enable APN type "default"
+E/WifiConfigStore(  589): Error parsing configurationjava.io.FileNotFoundException: /data/misc/wifi/ipconfig.txt: open failed: ENOENT (No such file or directory)
+E/WifiNative-wlan0(  589): doBoolean: disable
+E/WVMExtractor(  177): Failed to open libwvm.so
+E/cutils-trace(  177): Error opening trace file: No such file or directory (2)
+E/WifiStateMachine(  589): Unexpected BatchedScanResults :OK
+E/ConnectivityService(  589): Unexpected mtu value: android.net.wifi.WifiStateTracker@41afba18
+E/ConnectivityService(  589): Unexpected mtu value: android.net.wifi.WifiStateTracker@41afba18
+E/NetdConnector(  589): NDC Command {20 bandwidth enable} took too long (982ms)
+E/VoldConnector(  589): NDC Command {3 volume mount /storage/sdcard0} took too long (1386ms)
+E/FlpHardwareProvider(  589): Error hw_get_module 'flp': -2
+E/FlpHardwareProvider(  589): Error hw_get_module 'flp': -2
+E/LocationManagerService(  589): No FusedProvider found.
+E/AppsCustomizePagedView( 1130): Widget ComponentInfo{com.android.calculator2/com.android.calculator2.CalculatorWidget} can not fit on this device (250, 250)
+E/AppsCustomizePagedView( 1130): Widget ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.sidekick.widget.PredictiveCardsWidgetProvider} can not fit on this device (300, 250)
+E/AppsCustomizePagedView( 1130): Widget ComponentInfo{com.android.mms/com.android.mms.widget.MmsWidgetProvider} can not fit on this device (220, 220)
+E/AppsCustomizePagedView( 1130): Widget ComponentInfo{com.google.android.ears/com.google.android.ears.widget.EarsMusicWidgetProvider} can not fit on this device (300, 60)
+E/BluetoothPhoneService( 1098): Could not get a handle on Connection object for the call
+E/CM PowerHAL(  589): Error opening boostpulse: No such file or directory
+E/PhoneMonitor( 1408): onOtaspChanged old =0, new =3
+E/UpdateRequestReceiver( 1748): ignoring update request
+E/UpdateRequestReceiver( 1748): ignoring update request
+E/UpdateRequestReceiver( 1748): ignoring update request
+E/UpdateRequestReceiver( 1748): ignoring update request
+E/UpdateRequestReceiver( 1748): ignoring update request
+E/UpdateRequestReceiver( 1748): ignoring update request
