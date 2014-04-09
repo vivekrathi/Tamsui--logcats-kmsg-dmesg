@@ -1,0 +1,399 @@
+I/Timeline( 1501): Timeline: Activity_launch_request id:com.android.camera2 time:647681
+I/ActivityManager(  625): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera2/com.android.camera.CameraLauncher} from pid 1501
+D/AwesomePlayer(  181): Before reset_l
+D/AwesomePlayer(  181): printFileName fd(26) -> /system/app/Camera2.apk
+I/AwesomePlayer(  181): Could not offload audio decode, try pcm offload
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x951418 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95a780 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95a8c0 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95a9e8 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x960d98 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x961b48 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x961a78 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x961658 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x967b90 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x967200 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x951530 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x9655f0 successful
+D/AwesomePlayer(  181): Before reset_l
+D/AwesomePlayer(  181): printFileName fd(26) -> /system/app/Camera2.apk
+D/CameraStorage( 2526): External storage state=mounted
+I/AwesomePlayer(  181): Could not offload audio decode, try pcm offload
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95afe0 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95b200 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95b340 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95b468 successful
+V/CAM_PhotoModule( 2526): On resume.
+V/CAM_PhotoModule( 2526): Executing onResumeTasks.
+V/CAM_PhotoModule( 2526): Open camera device.
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95ae58 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95ada0 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x951c48 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x951188 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95af60 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x967ce8 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x966f20 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x9669f8 successful
+V/CameraHolder( 2526): open camera 0
+I/AwesomePlayer(  181): setDataSource_l(URL suppressed)
+I/AwesomePlayer(  181): Could not offload audio decode, try pcm offload
+I/AwesomePlayer(  181): setDataSource_l(URL suppressed)
+I/AwesomePlayer(  181): Could not offload audio decode, try pcm offload
+I/CameraClient(  181): Opening camera 0
+I/        (  181): QCameraHardwareInterface: E
+I/        (  181): Init mPreviewState = 0
+I/mm-libcamera2(  181): mm_camera_open:  ctrl_fd = 30
+I/mm-libcamera2(  181): Errno:0
+I/mm-libcamera2(  181): mm_camera_open:  2
+I/mm-libcamera2(  181): mm_camera_open:  ds_fd = 31
+I/mm-libcamera2(  181): Errno:0
+F/libc    ( 2563): Fatal signal 11 (SIGSEGV) at 0x02ffcbf6 (code=1), thread 2602 (mm-qcamera-daem)
+I/DEBUG   (  175): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  175): Build fingerprint: 'SEMC/ST26i_1257-4009/ST26i:4.0.4/6.1.A.0.452/O_5_zw:user/release-keys'
+I/DEBUG   (  175): Revision: '0'
+I/DEBUG   (  175): pid: 2563, tid: 2602, name: mm-qcamera-daem  >>> /system/bin/mm-qcamera-daemon <<<
+I/DEBUG   (  175): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 02ffcbf6
+W/NativeCrashListener(  625): Couldn't find ProcessRecord for pid 2563
+I/DEBUG   (  175):     r0 00bd0860  r1 4079798c  r2 4039f837  r3 02ffcbf7
+I/DEBUG   (  175): AM write failure (32 / Broken pipe)
+I/DEBUG   (  175):     r4 00000000  r5 4079781c  r6 405ce050  r7 405ce050
+I/DEBUG   (  175):     r8 00000009  r9 40299d5e  sl 4079781c  fp ffffffff
+I/DEBUG   (  175):     ip 000003c0  sp 407976b8  lr 4024c1bb  pc 02ffcbf6  cpsr 60070030
+I/DEBUG   (  175):     d0  0000000000000000  d1  0000000000000000
+I/DEBUG   (  175):     d2  0000000000000000  d3  0000000000000000
+I/DEBUG   (  175):     d4  0000000000000000  d5  0000000000000000
+I/DEBUG   (  175):     d6  0000000000000000  d7  258d098000000000
+I/DEBUG   (  175):     d8  0000000000000000  d9  0000000000000000
+I/DEBUG   (  175):     d10 0000000000000000  d11 0000000000000000
+I/DEBUG   (  175):     d12 0000000000000000  d13 0000000000000000
+I/DEBUG   (  175):     d14 0000000000000000  d15 0000000000000000
+I/DEBUG   (  175):     d16 41c2ccaca44f1aa0  d17 0000000000000003
+I/DEBUG   (  175):     d18 41c80bd3d5000000  d19 0000000000000000
+I/DEBUG   (  175):     d20 0000000000000000  d21 0000000000000000
+I/DEBUG   (  175):     d22 0000000000000000  d23 0000000000000000
+I/DEBUG   (  175):     d24 0000000000000000  d25 0000000000000000
+I/DEBUG   (  175):     d26 0000000000000000  d27 0000000000000000
+I/DEBUG   (  175):     d28 0000000000000000  d29 0000000000000000
+I/DEBUG   (  175):     d30 0000000000000000  d31 0000000000000000
+I/DEBUG   (  175):     scr 00000010
+I/DEBUG   (  175): 
+I/DEBUG   (  175): backtrace:
+I/DEBUG   (  175):     #00  pc 02ffcbf6  <unknown>
+I/DEBUG   (  175):     #01  pc 0001e1b9  /system/lib/liboemcamera.so (mctl_send_ctrl_cmd_done+28)
+I/DEBUG   (  175):     #02  pc 0001976d  /system/lib/liboemcamera.so (mctl_proc_v4l2_request+1844)
+I/DEBUG   (  175):     #03  pc 0001e387  /system/lib/liboemcamera.so
+I/DEBUG   (  175):     #04  pc 0000d2d8  /system/lib/libc.so (__thread_entry+72)
+I/DEBUG   (  175):     #05  pc 0000d470  /system/lib/libc.so (pthread_create+240)
+I/DEBUG   (  175): 
+I/DEBUG   (  175): stack:
+I/DEBUG   (  175):          40797678  4029c3a0  /system/lib/liboemcamera.so
+I/DEBUG   (  175):          4079767c  40671386  [heap]
+I/DEBUG   (  175):          40797680  405ce050  
+I/DEBUG   (  175):          40797684  4024b3ed  /system/lib/liboemcamera.so (mctl_init+564)
+I/DEBUG   (  175):          40797688  00000000  
+I/DEBUG   (  175):          4079768c  00000000  
+I/DEBUG   (  175):          40797690  00000000  
+I/DEBUG   (  175):          40797694  0000000b  
+I/DEBUG   (  175):          40797698  00000000  
+I/DEBUG   (  175):          4079769c  00000000  
+I/DEBUG   (  175):          407976a0  00000000  
+I/DEBUG   (  175):          407976a4  00000000  
+I/DEBUG   (  175):          407976a8  00000000  
+I/DEBUG   (  175):          407976ac  00000000  
+I/DEBUG   (  175):          407976b0  00000000  
+I/DEBUG   (  175):          407976b4  4079781c  [stack:2602]
+I/DEBUG   (  175):     #00  407976b8  40797818  [stack:2602]
+I/DEBUG   (  175):          ........  ........
+I/DEBUG   (  175):     #01  407976b8  40797818  [stack:2602]
+I/DEBUG   (  175):          407976bc  405ce050  
+I/DEBUG   (  175):          407976c0  405ce050  
+I/DEBUG   (  175):          407976c4  00000009  
+I/DEBUG   (  175):          407976c8  40299d5e  /system/lib/liboemcamera.so
+I/DEBUG   (  175):          407976cc  4079781c  [stack:2602]
+I/DEBUG   (  175):          407976d0  00000001  
+I/DEBUG   (  175):          407976d4  40247771  /system/lib/liboemcamera.so (mctl_proc_v4l2_request+1848)
+I/DEBUG   (  175):     #02  407976d8  00000000  
+I/DEBUG   (  175):          407976dc  00000000  
+I/DEBUG   (  175):          407976e0  00000000  
+I/DEBUG   (  175):          407976e4  00000000  
+I/DEBUG   (  175):          407976e8  00000000  
+I/DEBUG   (  175):          407976ec  00000000  
+I/DEBUG   (  175):          407976f0  00000000  
+I/DEBUG   (  175):          407976f4  00000000  
+I/DEBUG   (  175):          407976f8  00000000  
+I/DEBUG   (  175):          407976fc  00000000  
+I/DEBUG   (  175):          40797700  00000000  
+I/DEBUG   (  175):          40797704  00000000  
+I/DEBUG   (  175):          40797708  00000000  
+I/DEBUG   (  175):          4079770c  00000000  
+I/DEBUG   (  175):          40797710  00000000  
+I/DEBUG   (  175):          40797714  00000000  
+I/DEBUG   (  175):          ........  ........
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near r0:
+I/DEBUG   (  175):     00bd0840 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0850 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0860 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0870 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0880 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0890 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd08a0 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd08b0 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd08c0 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd08d0 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd08e0 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd08f0 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0900 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0910 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0920 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     00bd0930 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near r1:
+I/DEBUG   (  175):     4079796c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079797c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079798c 00640047 407979b4 00000001 000003e8  
+I/DEBUG   (  175):     4079799c 00000007 00000000 00000000 00000000  
+I/DEBUG   (  175):     407979ac c00090bc 00000000 5e5c6dfb e0460010  
+I/DEBUG   (  175):     407979bc 000001ed 00000090 00000000 00001fb7  
+I/DEBUG   (  175):     407979cc 00000000 00000001 00000a20 00000798  
+I/DEBUG   (  175):     407979dc 00000500 000003c0 00000500 000003c0  
+I/DEBUG   (  175):     407979ec 00000001 00000003 00000001 0000000b  
+I/DEBUG   (  175):     407979fc 0000000f 0000000b 00000002 00000101  
+I/DEBUG   (  175):     40797a0c 00000500 000002d0 00000001 00000000  
+I/DEBUG   (  175):     40797a1c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797a2c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797a3c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797a4c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797a5c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near r2:
+I/DEBUG   (  175):     4039f814 8000f3af 2100b513 46684604 eb9af7fb  
+I/DEBUG   (  175):     4039f824 bfb42800 30fff04f b1049800 bd1c6020  
+I/DEBUG   (  175):     4039f834 f7ffb508 4b02ffcb 6018447b bf00bd08  
+I/DEBUG   (  175):     4039f844 000323ec f7ffb508 4b02ffc1 6819447b  
+I/DEBUG   (  175):     4039f854 bd081a40 000323d8 b530b40e b0964605  
+I/DEBUG   (  175):     4039f864 2008f244 73fff64f 0010f8ad f8ad2080  
+I/DEBUG   (  175):     4039f874 f7e83012 9001fa63 b1a89005 aa1a217f  
+I/DEBUG   (  175):     4039f884 91069103 9919a801 f0019200 1c43fc17  
+I/DEBUG   (  175):     4039f894 d0094604 9b012200 701a1c61 f7e89805  
+I/DEBUG   (  175):     4039f8a4 b108fa77 e00a6028 98052400 fa54f7e8  
+I/DEBUG   (  175):     4039f8b4 f7ee602c f04ffea1 210c34ff 46206001  
+I/DEBUG   (  175):     4039f8c4 e8bdb016 b0034030 89834770 4604b570  
+I/DEBUG   (  175):     4039f8d4 0208f003 b908b210 bd702000 2d006925  
+I/DEBUG   (  175):     4039f8e4 0799d0fa bf0c6826 21006961 60251b76  
+I/DEBUG   (  175):     4039f8f4 e00f60a1 69e06ae3 46324629 28004798  
+I/DEBUG   (  175):     4039f904 89a2dc06 0040f042 f04f81a0 bd7030ff  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near r3:
+I/DEBUG   (  175):     02ffcbd4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcbe4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcbf4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc04 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc14 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc24 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc34 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc44 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc54 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc64 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc74 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc84 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc94 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcca4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffccb4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffccc4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near r5:
+I/DEBUG   (  175):     407977fc 00000001 ffffffff 00000001 ffffffff  
+I/DEBUG   (  175):     4079780c 00000001 ffffffff 00000001 00000004  
+I/DEBUG   (  175):     4079781c 008c000c 4079798c 00000001 000003e8  
+I/DEBUG   (  175):     4079782c 00000007 00000000 00000000 0000000a  
+I/DEBUG   (  175):     4079783c c00090bc 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079784c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079785c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079786c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079787c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079788c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079789c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978ac 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978bc 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978cc 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978dc 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978ec 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near r6:
+I/DEBUG   (  175):     405ce030 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce040 00000000 00000000 00000000 00000007  
+I/DEBUG   (  175):     405ce050 0000000b 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce060 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce070 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce080 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce090 41200000 00000000 00000001 00000001  
+I/DEBUG   (  175):     405ce0a0 00000000 00000000 00000000 00000002  
+I/DEBUG   (  175):     405ce0b0 00000001 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce0c0 00000005 00000001 00000000 00000000  
+I/DEBUG   (  175):     405ce0d0 00000000 00000001 00000001 00000000  
+I/DEBUG   (  175):     405ce0e0 00000000 00000000 00000006 00000001  
+I/DEBUG   (  175):     405ce0f0 00000003 00000003 00000000 0000000a  
+I/DEBUG   (  175):     405ce100 00000001 00000005 00000005 00000000  
+I/DEBUG   (  175):     405ce110 00000003 00000001 00000000 00000000  
+I/DEBUG   (  175):     405ce120 00000000 00000000 0000001e 00000001  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near r7:
+I/DEBUG   (  175):     405ce030 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce040 00000000 00000000 00000000 00000007  
+I/DEBUG   (  175):     405ce050 0000000b 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce060 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce070 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce080 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce090 41200000 00000000 00000001 00000001  
+I/DEBUG   (  175):     405ce0a0 00000000 00000000 00000000 00000002  
+I/DEBUG   (  175):     405ce0b0 00000001 00000000 00000000 00000000  
+I/DEBUG   (  175):     405ce0c0 00000005 00000001 00000000 00000000  
+I/DEBUG   (  175):     405ce0d0 00000000 00000001 00000001 00000000  
+I/DEBUG   (  175):     405ce0e0 00000000 00000000 00000006 00000001  
+I/DEBUG   (  175):     405ce0f0 00000003 00000003 00000000 0000000a  
+I/DEBUG   (  175):     405ce100 00000001 00000005 00000005 00000000  
+I/DEBUG   (  175):     405ce110 00000003 00000001 00000000 00000000  
+I/DEBUG   (  175):     405ce120 00000000 00000000 0000001e 00000001  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near r9:
+I/DEBUG   (  175):     40299d3c 00676d69 642f0030 2f617461 765f6425  
+I/DEBUG   (  175):     40299d4c 7675792e 61642f00 252f6174 75792e64  
+I/DEBUG   (  175):     40299d5c 6d6d0076 6d61632d 00617265 706d7544  
+I/DEBUG   (  175):     40299d6c 00732520 7665642f 6d736d2f 6d61635f  
+I/DEBUG   (  175):     40299d7c 2f617265 6d617266 00642565 74696157  
+I/DEBUG   (  175):     40299d8c 20676e69 20726f66 6d617266 68742065  
+I/DEBUG   (  175):     40299d9c 64616572 206f7420 72617473 20212074  
+I/DEBUG   (  175):     40299dac 6157000a 6f207469 2c726576 61726620  
+I/DEBUG   (  175):     40299dbc 7420656d 61657268 65722064 20796461  
+I/DEBUG   (  175):     40299dcc 21212121 2f000a20 2f766564 006e6f69  
+I/DEBUG   (  175):     40299ddc 763a7325 6f656469 63657220 6964726f  
+I/DEBUG   (  175):     40299dec 6520676e 6575716e 62206575 66206675  
+I/DEBUG   (  175):     40299dfc 64253d64 66756220 646e6920 253d7865  
+I/DEBUG   (  175):     40299e0c 25000a64 69763a73 5f6f6564 253d6466  
+I/DEBUG   (  175):     40299e1c 656e2c64 65207478 6575716e 62206575  
+I/DEBUG   (  175):     40299e2c 69206675 7865646e 0a64253d 3a732500  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near sl:
+I/DEBUG   (  175):     407977fc 00000001 ffffffff 00000001 ffffffff  
+I/DEBUG   (  175):     4079780c 00000001 ffffffff 00000001 00000004  
+I/DEBUG   (  175):     4079781c 008c000c 4079798c 00000001 000003e8  
+I/DEBUG   (  175):     4079782c 00000007 00000000 00000000 0000000a  
+I/DEBUG   (  175):     4079783c c00090bc 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079784c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079785c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079786c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079787c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079788c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     4079789c 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978ac 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978bc 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978cc 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978dc 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407978ec 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory near sp:
+I/DEBUG   (  175):     40797698 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407976a8 00000000 00000000 00000000 4079781c  
+I/DEBUG   (  175):     407976b8 40797818 405ce050 405ce050 00000009  
+I/DEBUG   (  175):     407976c8 40299d5e 4079781c 00000001 40247771  
+I/DEBUG   (  175):     407976d8 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407976e8 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     407976f8 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797708 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797718 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797728 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797738 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797748 00000000 00000000 7665642f 6d736d2f  
+I/DEBUG   (  175):     40797758 6d61635f 2f617265 666e6f63 00306769  
+I/DEBUG   (  175):     40797768 00000000 00000000 00000000 00000000  
+I/DEBUG   (  175):     40797778 00000000 00000000 40671350 40671350  
+I/DEBUG   (  175):     40797788 40797818 0000000b 405ce050 00000009  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): code around pc:
+I/DEBUG   (  175):     02ffcbd4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcbe4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcbf4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc04 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc14 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc24 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc34 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc44 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc54 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc64 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc74 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc84 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcc94 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffcca4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffccb4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175):     02ffccc4 ffffffff ffffffff ffffffff ffffffff  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): code around lr:
+I/DEBUG   (  175):     4024c198 0006f1dc 30a6f500 4614b530 22e0f8d0  
+I/DEBUG   (  175):     4024c1a8 460db085 6813b132 b105b123 68906869  
+I/DEBUG   (  175):     4024c1b8 e0164798 aa04b9ac 490b6928 5d04f842  
+I/DEBUG   (  175):     4024c1c8 efacf7eb da0c2800 2006882b 4a084907  
+I/DEBUG   (  175):     4024c1d8 44799300 f240447a f7eb6384 4620ef3a  
+I/DEBUG   (  175):     4024c1e8 2001e000 bd30b005 c00456c4 0004db80  
+I/DEBUG   (  175):     4024c1f8 00051661 4ff0e92d 5daef5ad 46044dbd  
+I/DEBUG   (  175):     4024c208 f8d0b08b 447d00a8 f8d4682d f50d2094  
+I/DEBUG   (  175):     4024c218 f50051ae 682f33a6 f8c33124 462022e0  
+I/DEBUG   (  175):     4024c228 f8d4600f f7fe70a8 9505ffc3 da072800  
+I/DEBUG   (  175):     4024c238 200649b1 4bb24ab1 447a4479 e034447b  
+I/DEBUG   (  175):     4024c248 50a8f8d4 36fff04f 2080f8d4 96079606  
+I/DEBUG   (  175):     4024c258 2500682e 92036ea3 4630aa08 f8d4499e  
+I/DEBUG   (  175):     4024c268 9304806c b08cf8d4 f7eb9508 42a8ef58  
+I/DEBUG   (  175):     4024c278 f7ebda1e 4ea3ef72 447e4da3 6800447d  
+I/DEBUG   (  175):     4024c288 ef82f7eb 46314aa1 447a462b 20069000  
+I/DEBUG   (  175): 
+I/DEBUG   (  175): memory map around fault addr 02ffcbf6:
+I/DEBUG   (  175):     (no map below)
+I/DEBUG   (  175):     (no map for address)
+I/DEBUG   (  175):     40008000-40028000 r-- /dev/__properties__
+E/mm-camera( 2604): qcamsvr_start: old_mode = 3f
+E/mm-camera( 2604): qcamsvr_load_gesture_lib Error opening gesture library
+E/mm-camera( 2604): Cannot init Gesture library
+E/mm-libcamera2(  181): mm_camera_open: cannot get camera capabilities
+E/mm-camera( 2604): qcamsvr_find_mctl_inst: no match for mctl_id = 0
+E/mm-camera( 2604): qcamsvr_process_server_node_event: MSM_V4L2_CLOSE - cannot find mctl, mctl_id = 0
+E/        (  181): startCamera: cam_ops_open failed: id = 0
+I/        (  181): isCameraReady mCameraState 0
+I/        (  181): ~QCameraHardwareInterface: E
+I/        (  181): ~QCameraHardwareInterface: X
+E/CameraClient(  181): Could not open camera 0: -1
+E/CameraClient(  181): initialize: Camera 0: unable to initialize device: Operation not permitted (-1)
+I/CameraClient(  181): Destroying camera 0
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95bb58 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95baa0 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x9609f0 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x960c80 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95c168 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95c040 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95bf00 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x95bce0 successful
+W/AudioFlinger(  181): session id 50 not found for pid 2526
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x961cf0 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x964820 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x962188 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x961fc0 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x969d80 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x969c58 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x969b18 successful
+I/OMXNodeInstance(  181): OMX_FreeBuffer for buffer header 0x9698f8 successful
+W/AudioFlinger(  181): session id 51 not found for pid 2526
+W/CameraBase( 2526): An error occurred while connecting to camera: 0
+E/CameraHolder( 2526): fail to connect Camera:-1, aborting.
+E/CAM_PhotoModule( 2526): Failed to open camera:0
+V/CAM_UI  ( 2526): SurfaceTexture ready.
+I/ActivityManager(  625): Displayed com.android.camera2/com.android.camera.CameraLauncher: +3s19ms
+I/Timeline(  625): Timeline: Activity_windows_visible id: ActivityRecord{41b78a60 u0 com.android.camera2/com.android.camera.CameraLauncher t11} time:650869
+I/Timeline( 2526): Timeline: Activity_idle id: android.os.BinderProxy@41ad7250 time:650906
+I/auditd  ( 2608): Starting up
+E/auditd  ( 2608): Failed on audit_set_pid with error: Protocol not supported
+I/auditd  ( 2608): Exiting
+W/AudioTrack(  625): AUDIO_OUTPUT_FLAG_FAST denied by client due to mismatching sample rate (48000 vs 44100)
+D/AudioFlinger(  181): start(4098), calling pid 625 session 52
+D/AudioFlinger(  181): ? => ACTIVE (4098) on thread 0x957488
+V/CAM_PhotoModule( 2526): On pause.
+V/CAM_PhotoModule( 2526): Close camera device.
+^C
