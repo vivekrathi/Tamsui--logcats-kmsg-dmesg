@@ -1,0 +1,13 @@
+F/libc    ( 2720): Fatal signal 11 (SIGSEGV) at 0x02ffcbf6 (code=1), thread 2807 (mm-qcamera-daem)
+E/mm-camera( 2810): qcamsvr_start: old_mode = 3f
+E/auditd  ( 2809): Failed on audit_set_pid with error: Protocol not supported
+E/mm-camera( 2810): qcamsvr_load_gesture_lib Error opening gesture library
+E/mm-camera( 2810): Cannot init Gesture library
+E/mm-libcamera2(  181): mm_camera_open: cannot get camera capabilities
+E/mm-camera( 2810): qcamsvr_find_mctl_inst: no match for mctl_id = 0
+E/mm-camera( 2810): qcamsvr_process_server_node_event: MSM_V4L2_CLOSE - cannot find mctl, mctl_id = 0
+E/        (  181): startCamera: cam_ops_open failed: id = 0
+E/CameraClient(  181): Could not open camera 0: -1
+E/CameraClient(  181): initialize: Camera 0: unable to initialize device: Operation not permitted (-1)
+E/CameraHolder( 2526): fail to connect Camera:-1, aborting.
+E/CAM_PhotoModule( 2526): Failed to open camera:0
