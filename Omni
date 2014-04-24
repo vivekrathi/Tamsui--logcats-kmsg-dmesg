@@ -1,0 +1,70 @@
+/home/shivangdave/omni/out/target/product/mesona/obj/PACKAGING/target_files_intermediates/omni_mesona-target_files-eng.shivangdave.zip /home/shivangdave/omni/out/target/product/mesona/omni_mesona-ota-eng.shivangdave.zip
+
+Given a target-files zipfile, produces an OTA package that installs
+that build.  An incremental OTA is produced if -i is given, otherwise
+a full OTA is produced.
+
+Usage:  ota_from_target_files [flags] input_target_files output_ota_package
+
+  -b  (--board_config)  <file>
+      Deprecated.
+
+  -k (--package_key) <key> Key to use to sign the package (default is
+      the value of default_system_dev_certificate from the input
+      target-files's META/misc_info.txt, or
+      "build/target/product/security/testkey" if that value is not
+      specified).
+
+      For incremental OTAs, the default value is based on the source
+      target-file, not the target build.
+
+  -i  (--incremental_from)  <file>
+      Generate an incremental OTA using the given target-files zip as
+      the starting build.
+
+  -w  (--wipe_user_data)
+      Generate an OTA package that will wipe the user data partition
+      when installed.
+
+  -n  (--no_prereq)
+      Omit the timestamp prereq check normally included at the top of
+      the build scripts (used for developer OTA packages which
+      legitimately need to go back and forth).
+
+  -e  (--extra_script)  <file>
+      Insert the contents of file at the end of the update script.
+
+  -a  (--aslr_mode)  <on|off>
+      Specify whether to turn on ASLR for the package (on by default).
+
+  --backup <boolean>
+      Enable or disable the execution of backuptool.sh.
+      Disabled by default.
+
+  --override_device <device>
+      Override device-specific asserts. Can be a comma-separated list.
+
+  --override_prop <boolean>
+      Override build.prop items with custom vendor init.
+      Enabled when TARGET_UNIFIED_DEVICE is defined in BoardConfig
+
+  -p  (--path)  <dir>
+      Prepend <dir>/bin to the list of places to search for binaries
+      run by this script, and expect to find jars in <dir>/framework.
+
+  -s  (--device_specific) <file>
+      Path to the python module containing device-specific
+      releasetools code.
+
+  -x  (--extra)  <key=value>
+      Add a key/value pair to the 'extras' dict, which device-specific
+      extension code may look at.
+
+  -v  (--verbose)
+      Show command lines being executed.
+
+  -h  (--help)
+      Display this usage message and exit.
+
+** option --mount_by_label not recognized **
+make: *** [/home/shivangdave/omni/out/target/product/mesona/omni_mesona-ota-eng.shivangdave.zip] Error 2
