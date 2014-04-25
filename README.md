@@ -1,4 +1,4 @@
-CM11-logcats-errors
+CM11 & Omni logcats-errors
 =======================
 
 Here logcats and errors rom our devices.
