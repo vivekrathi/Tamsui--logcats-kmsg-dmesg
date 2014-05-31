@@ -1,0 +1,84 @@
+com.android.gallery3d/.app.MovieActivity t16} time:636926
+I/ExtendedUtils( 1605): AV Sync late margin : Intended=40ms Using=0ms
+D/AwesomePlayer( 1605): Before reset_l
+D/AwesomePlayer( 1605): printFileName fd(34) -> /storage/sdcard1/Super Mario bros theme Tutorial.mp4
+D/ExtendedUtils( 1605): extended extractor not needed, return default
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] AVC profile = 66 (Baseline), level = 13
+I/ExtendedCodec( 1605): Decoder will be in frame by frame mode
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] video dimensions are 320 x 240
+E/omx_vdec( 1605): m_enable_android_native_buffers 0
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocating 2 buffers of size 327680 on input port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1e368b0 on input port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1e36900 on input port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocating 12 buffers of size 122880 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dcdd90 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dcdde0 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dcde30 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dcde80 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dcded0 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dcdf20 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dcdf70 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dcdfc0 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dce010 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dce060 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dce0b0 on output port
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocated buffer 0x1dce100 on output port
+I/OMXCodec( 1605): Codec outputs a different number of channels than the input stream contains (contains 2 channels, codec outputs 1 channels).
+I/AwesomePlayer( 1605): Could not offload audio decode, try pcm offload
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocating 4 buffers of size 8192 on input port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e3f708 on input port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e4cc30 on input port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e3f760 on input port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e22588 on input port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocating 4 buffers of size 24576 on output port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e22710 on output port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e22910 on output port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e22a50 on output port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e22b78 on output port
+D/MediaPlayer( 1915): getMetadata
+E/omx_vdec( 1605): OMXCORE-SM:Recieved command DISABLE (2)
+E/omx_vdec( 1605): Omx Flush issued when vdec is not initialized yet.
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dcdd90 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dcdde0 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dcde30 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dcde80 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dcded0 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dcdf20 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dcdf70 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dcdfc0 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dce010 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dce060 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dce0b0 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1dce100 successful
+I/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] video dimensions are 320 x 240
+E/omx_vdec( 1605): OMXCORE-SM:Recieved command ENABLE (3)
+E/vdec    ( 1605): allocating pmem for input and output - allocate buffer case
+E/vdec    ( 1605): Calling vdec_pmem_alloc
+E/vdec_pmem( 1605): pmem_alloc1 called for input Buffers
+E/vdec_pmem( 1605): Failed to open pmemDevices
+E/vdec    ( 1605): vdec: failed to allocate pmem arena (4157440 bytes)
+E/omx_vdec( 1605): ERROR!!! vdec_open failed
+E/omx_vdec( 1605): Get Param in Invalid State
+E/OMXCodec( 1605): [OMX.qcom.video.decoder.avc] allocateBuffersOnPort (output) failed (err = -2147483648)
+W/OMXCodec( 1605): Dropping OMX EVENT message - we're in ERROR state.
+I/SoftAAC2( 1605): Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1e22710 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1e22910 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1e22a50 successful
+I/OMXNodeInstance( 1605): OMX_FreeBuffer for buffer header 0x1e22b78 successful
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocating 4 buffers of size 24576 on output port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e225e0 on output port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e226f0 on output port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e36060 on output port
+I/OMXCodec( 1605): [OMX.google.aac.decoder] allocated buffer 0x1e36188 on output port
+D/AudioFlinger( 1605): start(4098), calling pid 1605 session 62
+D/AudioFlinger( 1605): ? => ACTIVE (4098) on thread 0x1e55738
+E/MediaPlayer( 1915): error (1, -2147483648)
+E/MediaPlayer( 1915): Error (1,-2147483648)
+D/VideoView( 1915): Error: 1,-2147483648
+D/wpa_supplicant( 1161): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant( 1161): wlan0: Control interface command 'SIGNAL_POLL'
+D/wpa_supplicant( 1161): nl80211: survey data missing!
+I/auditd  ( 2816): Starting up
+E/auditd  ( 2816): Failed on audit_set_pid with error: Protocol not supported
+I/auditd  ( 2816): Exiting
