@@ -1,9 +1,0 @@
-make[1]: Leaving directory `/home/shivangdave/cm11/kernel/sony/al'
-mdpath=`find /home/shivangdave/cm11/out/target/product/mesona/system/lib/modules -type f -name modules.order`; if [ "$mdpath" != "" ];then mpath=`dirname $mdpath`; ko=`find $mpath/kernel -type f -name *.ko`; for i in $ko; do /home/shivangdave/cm11/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7/bin/arm-eabi-strip --strip-unneeded $i; mv $i /home/shivangdave/cm11/out/target/product/mesona/system/lib/modules/; done; fi
-mdpath=`find /home/shivangdave/cm11/out/target/product/mesona/system/lib/modules -type f -name modules.order`; if [ "$mdpath" != "" ];then mpath=`dirname $mdpath`; rm -rf $mpath; fi
-mdpath=`find /home/shivangdave/cm11/out/target/product/mesona/system/lib/modules -type f -name modules.order`; if [ "$mdpath" != "" ];then mpath=`dirname $mdpath`; ko=`find $mpath/kernel -type f -name *.ko`; for i in $ko; do /home/shivangdave/cm11/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7/bin/arm-eabi-strip --strip-unneeded $i; mv $i /home/shivangdave/cm11/out/target/product/mesona/system/lib/modules/; done; fi
-mdpath=`find /home/shivangdave/cm11/out/target/product/mesona/system/lib/modules -type f -name modules.order`; if [ "$mdpath" != "" ];then mpath=`dirname $mdpath`; rm -rf $mpath; fi
-target Prebuilt:  (/home/shivangdave/cm11/out/target/product/mesona/kernel)
-Invalid policyvers specified: 26
-usage:  /home/shivangdave/cm11/out/host/linux-x86/bin/checkpolicy [-b] [-d] [-U handle_unknown (allow,deny,reject)] [-M][-c policyvers (15-29)] [-o output_file] [-t target_platform (selinux,xen)][input_file]
-make: *** [/home/shivangdave/cm11/out/target/product/mesona/obj/ETC/sepolicy_intermediates/sepolicy] Error 1
